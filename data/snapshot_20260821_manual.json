@@ -1,0 +1,57 @@
+{
+  "run_at": "2026-08-22T15:31:00-05:00",
+  "source": "manual pull via WebFetch (finance.yahoo.com, coingecko.com) — the automated pipeline (scripts/addie_pipeline.py) has no network access inside this sandbox; see README.md",
+  "market_data_as_of": "close, Friday August 21, 2026 (markets closed for the weekend as of this pull)",
+  "watchlist": [
+    {
+      "symbol": "SPY",
+      "asset_class": "equity",
+      "price": 765.72,
+      "day_change_usd": 3.12,
+      "day_change_pct": 0.41,
+      "52w_high": 779.37,
+      "52w_low": 629.28,
+      "52w_range_position_pct": 90.9,
+      "addie_commentary": "Up 0.41% on the session. Within 10% of its 52-week high — momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+    },
+    {
+      "symbol": "QQQ",
+      "asset_class": "equity",
+      "price": 713.44,
+      "day_change_usd": 2.51,
+      "day_change_pct": 0.35,
+      "52w_high": 748.65,
+      "52w_low": 555.60,
+      "52w_range_position_pct": 81.8,
+      "addie_commentary": "Up 0.35% on the session. Trading at 82% of its 52-week range — still elevated, with more room to the high than SPY, but tech's usual higher volatility means a single mega-cap earnings miss can move this fast."
+    },
+    {
+      "symbol": "NVDA",
+      "asset_class": "equity",
+      "price": 214.72,
+      "day_change_usd": -2.13,
+      "day_change_pct": -0.98,
+      "52w_high": 236.54,
+      "52w_low": 164.07,
+      "52w_range_position_pct": 69.9,
+      "addie_commentary": "Down 0.98% on the session. Trading mid-range (70% of the 52-week span) — no strong momentum or mean-reversion pull right now. Single-name concentration risk: one stock's news moves this more than a down day in the index."
+    },
+    {
+      "symbol": "BTC",
+      "asset_class": "crypto",
+      "price": 77380.39,
+      "day_change_pct": 0.40,
+      "market_cap_usd": 1553000000000,
+      "addie_commentary": "Roughly flat over 24 hours — no strong signal either way today. Crypto's realized volatility runs several multiples of equities, so treat a quiet day as the exception, not the trend."
+    },
+    {
+      "symbol": "ETH",
+      "asset_class": "crypto",
+      "price": 2404.92,
+      "day_change_pct": 0.0,
+      "seven_day_change_pct": 29.1,
+      "market_vs_seven_day_change_pct": 19.4,
+      "addie_commentary": "Flat over 24 hours, but up 29.1% over 7 days — outperforming the broader crypto market's 19.4% by about 10 points. That's the headline, not today's number. Outsized short-term moves like this raise the odds of a sharp mean-reversion pullback."
+    }
+  ]
+}
