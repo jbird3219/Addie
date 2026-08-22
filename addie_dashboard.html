@@ -1,0 +1,797 @@
+<title>Addie</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F4F6F8;
+    --surface: #FFFFFF;
+    --surface-2: #EAEFF2;
+    --ink: #12181D;
+    --ink-muted: #5B6670;
+    --ink-faint: #8993A0;
+    --border: #DCE2E7;
+    --accent: #0E7C86;
+    --accent-ink: #075158;
+    --accent-soft: #E1F1F2;
+    --good: #1E8E5A;
+    --good-soft: #E3F5EC;
+    --warn: #A3690F;
+    --warn-soft: #FBF0DC;
+    --bad: #C1403F;
+    --bad-soft: #FBE8E7;
+    --shadow: 0 1px 2px rgba(18, 24, 29, 0.04), 0 8px 24px rgba(18, 24, 29, 0.06);
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B1216;
+      --surface: #121B20;
+      --surface-2: #17222A;
+      --ink: #E8EDEF;
+      --ink-muted: #93A3A9;
+      --ink-faint: #5E6E75;
+      --border: #223038;
+      --accent: #3FCBD4;
+      --accent-ink: #B7F0F3;
+      --accent-soft: #12333A;
+      --good: #4ADE80;
+      --good-soft: #123321;
+      --warn: #F0A93F;
+      --warn-soft: #3A2B12;
+      --bad: #FF7A6E;
+      --bad-soft: #3A1817;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+      color-scheme: dark;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0B1216;
+    --surface: #121B20;
+    --surface-2: #17222A;
+    --ink: #E8EDEF;
+    --ink-muted: #93A3A9;
+    --ink-faint: #5E6E75;
+    --border: #223038;
+    --accent: #3FCBD4;
+    --accent-ink: #B7F0F3;
+    --accent-soft: #12333A;
+    --good: #4ADE80;
+    --good-soft: #123321;
+    --warn: #F0A93F;
+    --warn-soft: #3A2B12;
+    --bad: #FF7A6E;
+    --bad-soft: #3A1817;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+
+  .page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  /* ---------- Header ---------- */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .wordmark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--accent);
+    color: var(--surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .wordmark h1 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .wordmark p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+
+  .header-meta {
+    text-align: right;
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  .mode-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .mode-badge .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* ---------- Stage strip ---------- */
+  .stage-strip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .stage-strip-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .stages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .stage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .stage .bar {
+    height: 4px;
+    border-radius: 2px;
+    background: var(--surface-2);
+  }
+
+  .stage.active .bar { background: var(--accent); }
+  .stage.done .bar { background: var(--ink-faint); }
+
+  .stage .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink-faint);
+  }
+
+  .stage.active .label { color: var(--accent-ink); }
+
+  .stage .sub {
+    font-size: 11px;
+    color: var(--ink-faint);
+  }
+
+  /* ---------- Stat tiles ---------- */
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 12px;
+  }
+
+  .tile {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .tile .label {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    font-weight: 600;
+  }
+
+  .tile .value {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 6px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tile .value.good { color: var(--good); }
+  .tile .value.bad { color: var(--bad); }
+
+  .tile .footnote {
+    margin-top: 4px;
+    font-size: 12.5px;
+    color: var(--ink-muted);
+  }
+
+  /* ---------- Section shell ---------- */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+
+  .panel-head {
+    padding: 16px 18px 4px;
+  }
+
+  .panel-head h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .panel-head p {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: var(--ink-muted);
+    max-width: 62ch;
+  }
+
+  /* ---------- Watchlist table ---------- */
+  .table-scroll { overflow-x: auto; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 640px;
+  }
+
+  thead th {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    font-weight: 600;
+    padding: 14px 18px 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  tbody td {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+
+  tbody tr {
+    transition: background-color 120ms ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    tbody tr { transition: none; }
+  }
+
+  tbody tr:hover { background: var(--surface-2); }
+
+  .sym {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .sym-class {
+    display: block;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 2px;
+  }
+
+  .price {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12.5px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .chip.good { background: var(--good-soft); color: var(--good); }
+  .chip.bad { background: var(--bad-soft); color: var(--bad); }
+  .chip.flat { background: var(--surface-2); color: var(--ink-muted); }
+
+  .range-cell { min-width: 190px; }
+
+  .range-bar {
+    position: relative;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--surface-2);
+    margin: 6px 0 4px;
+  }
+
+  .range-fill {
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--accent-soft), var(--accent));
+  }
+
+  .range-marker {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--surface);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+
+  .range-labels {
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--ink-faint);
+  }
+
+  .range-empty {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    font-style: italic;
+  }
+
+  /* ---------- Commentary cards ---------- */
+  .notes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .note {
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 16px;
+  }
+
+  .note:last-child { border-bottom: none; }
+
+  .note .who {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 2px;
+  }
+
+  .note .who span {
+    display: block;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--ink-faint);
+    text-transform: none;
+    margin-top: 3px;
+  }
+
+  .note p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--ink);
+  }
+
+  /* ---------- Footer ---------- */
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 4px 0;
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+
+  .footer strong { color: var(--ink-muted); font-weight: 600; }
+
+  /* ---------- House Rules ---------- */
+  .rules {
+    list-style: none;
+    margin: 0;
+    padding: 4px 18px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    counter-reset: rule;
+  }
+
+  .rules li {
+    counter-increment: rule;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 10px;
+    font-size: 13.5px;
+    color: var(--ink-muted);
+  }
+
+  .rules li::before {
+    content: counter(rule);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rules li strong { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Journal ---------- */
+  .journal { display: flex; flex-direction: column; }
+
+  .journal-entry {
+    padding: 16px 18px 18px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .journal-entry:last-child { border-bottom: none; }
+
+  .journal-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .journal-id {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink-faint);
+  }
+
+  .journal-title {
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    flex: 1;
+    min-width: 160px;
+  }
+
+  .status-tag {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background: var(--warn-soft);
+    color: var(--warn);
+  }
+
+  .journal-rows {
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    row-gap: 9px;
+    column-gap: 16px;
+  }
+
+  .journal-rows dt {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding-top: 1px;
+  }
+
+  .journal-rows dd {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--ink-muted);
+  }
+
+  .journal-rows dd.read {
+    color: var(--ink);
+    padding: 10px 12px;
+    background: var(--surface-2);
+    border-radius: 8px;
+    border-left: 2px solid var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .journal-rows { grid-template-columns: 1fr; row-gap: 4px; }
+    .journal-rows dt { margin-top: 4px; }
+  }
+
+  @media (max-width: 640px) {
+    .stages { grid-template-columns: repeat(5, 1fr); }
+    .stage .sub { display: none; }
+    .note { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+
+<div class="page">
+
+  <div class="header">
+    <div class="wordmark">
+      <div class="mark">A</div>
+      <div>
+        <h1>Addie</h1>
+        <p>Jonah's market-reasoning agent — read-only, no trades placed</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="mode-badge"><span class="dot"></span>Observe only · v0</div>
+      <div>Snapshot: Sat Aug 22, 2026 · 3:31&nbsp;PM CT</div>
+      <div>Equities as of close Fri Aug&nbsp;21 · crypto live</div>
+    </div>
+  </div>
+
+  <div class="stage-strip">
+    <div class="stage-strip-label">Where Addie is on the road to autonomy</div>
+    <div class="stages">
+      <div class="stage active">
+        <div class="bar"></div>
+        <div class="label">1 · Observe</div>
+        <div class="sub">Reads data, no trade calls</div>
+      </div>
+      <div class="stage">
+        <div class="bar"></div>
+        <div class="label">2 · Suggest</div>
+        <div class="sub">Proposes, you execute</div>
+      </div>
+      <div class="stage">
+        <div class="bar"></div>
+        <div class="label">3 · Approve</div>
+        <div class="sub">You click, Addie submits</div>
+      </div>
+      <div class="stage">
+        <div class="bar"></div>
+        <div class="label">4 · Bounded auto</div>
+        <div class="sub">Executes within hard limits</div>
+      </div>
+      <div class="stage">
+        <div class="bar"></div>
+        <div class="label">5 · Full auto</div>
+        <div class="sub">Kill switch, human review</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>House rules</h2>
+      <p>Written once, meant to run everything — the constraints that don't change just because a feature gets added.</p>
+    </div>
+    <ol class="rules">
+      <li><span><strong>Addie never touches money.</strong> She reads, charts, tests, and flags. Every real-world action is yours — deliberately.</span></li>
+      <li><span><strong>Paper before paper money.</strong> Ideas trade in simulation first. Real dollars only after an idea survives weeks of live paper-testing — and even then, small.</span></li>
+      <li><span><strong>Write it before you test it.</strong> A prediction logged after the fact is a story, not a test.</span></li>
+      <li><span><strong>Killed ideas stay visible.</strong> The rejected pile is part of the record, not deleted.</span></li>
+      <li><span><strong>The benchmark is a plain index fund.</strong> Any thesis that can't beat "just hold the market" after costs is a hobby, not an edge.</span></li>
+    </ol>
+  </div>
+
+  <div class="tiles">
+    <div class="tile">
+      <div class="label">Watchlist</div>
+      <div class="value">5</div>
+      <div class="footnote">3 equities/ETFs · 2 crypto</div>
+    </div>
+    <div class="tile">
+      <div class="label">Movers today</div>
+      <div class="value good">3 up</div>
+      <div class="footnote">1 down · 1 flat</div>
+    </div>
+    <div class="tile">
+      <div class="label">Near 52-wk high</div>
+      <div class="value">SPY</div>
+      <div class="footnote">90.9% of its 52-week range</div>
+    </div>
+    <div class="tile">
+      <div class="label">Trades placed</div>
+      <div class="value">0</div>
+      <div class="footnote">By design, at this stage</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Watchlist</h2>
+      <p>Not a portfolio yet — a starter universe for Addie to reason over while we test her judgment.</p>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Price</th>
+            <th>Today</th>
+            <th>52-week position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="sym">SPY</span><span class="sym-class">Equity · ETF</span></td>
+            <td class="price">$765.72</td>
+            <td><span class="chip good">▲ +0.41%</span></td>
+            <td class="range-cell">
+              <div class="range-bar" title="90.9% of 52-week range">
+                <div class="range-fill" style="width: 90.9%"></div>
+                <div class="range-marker" style="left: 90.9%"></div>
+              </div>
+              <div class="range-labels"><span>$629.28</span><span>$779.37</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="sym">QQQ</span><span class="sym-class">Equity · ETF</span></td>
+            <td class="price">$713.44</td>
+            <td><span class="chip good">▲ +0.35%</span></td>
+            <td class="range-cell">
+              <div class="range-bar" title="81.8% of 52-week range">
+                <div class="range-fill" style="width: 81.8%"></div>
+                <div class="range-marker" style="left: 81.8%"></div>
+              </div>
+              <div class="range-labels"><span>$555.60</span><span>$748.65</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="sym">NVDA</span><span class="sym-class">Equity</span></td>
+            <td class="price">$214.72</td>
+            <td><span class="chip bad">▼ -0.98%</span></td>
+            <td class="range-cell">
+              <div class="range-bar" title="69.9% of 52-week range">
+                <div class="range-fill" style="width: 69.9%"></div>
+                <div class="range-marker" style="left: 69.9%"></div>
+              </div>
+              <div class="range-labels"><span>$164.07</span><span>$236.54</span></div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="sym">BTC</span><span class="sym-class">Crypto</span></td>
+            <td class="price">$77,380.39</td>
+            <td><span class="chip good">▲ +0.40%</span></td>
+            <td class="range-cell"><span class="range-empty">52-week range not pulled this snapshot</span></td>
+          </tr>
+          <tr>
+            <td><span class="sym">ETH</span><span class="sym-class">Crypto</span></td>
+            <td class="price">$2,404.92</td>
+            <td><span class="chip flat">– flat</span></td>
+            <td class="range-cell"><span class="range-empty">7-day: +29.1% vs. market +19.4%</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Addie's notes</h2>
+      <p>Rule-based and deliberately plain — every line traces to a specific number, on purpose. No model judgment calls yet.</p>
+    </div>
+    <div class="notes">
+      <div class="note">
+        <div class="who">SPY<span>Upside / downside</span></div>
+        <p>Within 10% of its 52-week high with the broader trend still pointing up. Momentum favors continuation, but there's little cushion left — a sentiment shift lands closer to the top of the range than the bottom.</p>
+      </div>
+      <div class="note">
+        <div class="who">QQQ<span>Upside / downside</span></div>
+        <p>Similar picture to SPY but a bit further from its highs, reflecting tech's usual higher volatility. More rate- and earnings-sensitive than the broad market — a single mega-cap miss can move this fast.</p>
+      </div>
+      <div class="note">
+        <div class="who">NVDA<span>Upside / downside</span></div>
+        <p>About a third of the way down from its 52-week high and red on the day. Sitting mid-range means neither momentum nor mean-reversion has a strong pull right now. Single-name concentration risk is the main thing to watch here.</p>
+      </div>
+      <div class="note">
+        <div class="who">BTC<span>Upside / downside</span></div>
+        <p>Roughly flat over 24 hours — no strong signal either way today. Crypto's realized volatility runs several multiples of equities, so a quiet day like this is the exception, not the trend.</p>
+      </div>
+      <div class="note">
+        <div class="who">ETH<span>Upside / downside</span></div>
+        <p>The headline isn't today's flat print — it's the week. Up 29.1% in 7 days, outperforming the broader crypto market by ~10 points. Strong relative momentum, but outsized short-term moves like this raise the odds of a sharp pullback. This is exactly the kind of move that punishes chasing.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Research journal</h2>
+      <p>Where a hunch becomes a thesis: what would prove it wrong, whether it'd survive real trading costs, and a dated read that can't be rewritten later.</p>
+    </div>
+    <div class="journal">
+      <div class="journal-entry">
+        <div class="journal-head">
+          <span class="journal-id">H-001</span>
+          <span class="journal-title">SPY stretched into the highs</span>
+          <span class="status-tag">Watching</span>
+        </div>
+        <dl class="journal-rows">
+          <dt>Thesis</dt>
+          <dd>Broad-market momentum (SPY, QQQ) has run far enough into 52-week highs that the easy, low-risk part of this move may be behind it, not ahead.</dd>
+          <dt>Kills it if</dt>
+          <dd>SPY makes a fresh 52-week high on expanding volume without a pullback first — that's continuation, not exhaustion. Also killed if "stretched" keeps getting logged for months with no pullback ever showing up: a signal that never fires isn't a signal.</dd>
+          <dt>Cost check</dt>
+          <dd>N/A yet — this is an observation, not a position. Becomes a real cost question only if it turns into an actual rebalancing suggestion.</dd>
+          <dt>Addie's read</dt>
+          <dd class="read">2026-08-22 — SPY at 90.9% of its 52-week range, QQQ at 81.8%. Logging this now, before knowing what happens next, specifically so the story can't get rewritten later if it's wrong.</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div><strong>0</strong> trades placed · <strong>0</strong> dollars at risk · this build cannot place trades</div>
+    <div>Logged to <strong>addie/data/</strong> for the audit trail</div>
+  </div>
+
+</div>
