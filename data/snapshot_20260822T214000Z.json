@@ -1,0 +1,51 @@
+{
+  "run_at_utc": "2026-08-22T21:40:00.861775+00:00",
+  "watchlist": [
+    {
+      "symbol": "SPY",
+      "asset_class": "equity",
+      "price": 765.72,
+      "day_change_pct": 0.37,
+      "52w_high": 779.37,
+      "52w_low": 627.66,
+      "52w_range_position_pct": 91.0,
+      "addie_commentary": "Up 0.37% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+    },
+    {
+      "symbol": "QQQ",
+      "asset_class": "equity",
+      "price": 713.44,
+      "day_change_pct": 0.37,
+      "52w_high": 747.83,
+      "52w_low": 554.99,
+      "52w_range_position_pct": 82.2,
+      "addie_commentary": "Up 0.37% on the session. Trading mid-range (82% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+    },
+    {
+      "symbol": "NVDA",
+      "asset_class": "equity",
+      "price": 214.72,
+      "day_change_pct": -1.07,
+      "52w_high": 236.26,
+      "52w_low": 163.85,
+      "52w_range_position_pct": 70.2,
+      "addie_commentary": "Down 1.07% on the session. Trading mid-range (70% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+    },
+    {
+      "symbol": "BITCOIN",
+      "asset_class": "crypto",
+      "price": 77011,
+      "day_change_pct": -1.41,
+      "market_cap_usd": 1545731475010.2666,
+      "addie_commentary": "Down 1.41% on the session. Crypto's realized volatility runs several multiples of equities \u2014 treat any single day's move (up or down) as noise unless it's part of a multi-day trend."
+    },
+    {
+      "symbol": "ETHEREUM",
+      "asset_class": "crypto",
+      "price": 2413.2,
+      "day_change_pct": -2.68,
+      "market_cap_usd": 291380507932.09283,
+      "addie_commentary": "Down 2.68% on the session. Crypto's realized volatility runs several multiples of equities \u2014 treat any single day's move (up or down) as noise unless it's part of a multi-day trend."
+    }
+  ]
+}
