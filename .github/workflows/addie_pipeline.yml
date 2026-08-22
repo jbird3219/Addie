@@ -1,0 +1,42 @@
+name: Addie data pipeline
+
+# Runs addie_pipeline.py on a schedule using GitHub's own runners, which have
+# normal internet access (unlike the Claude sandbox this was built in). Free
+# for the usage this needs. Commits the fresh snapshot back to this repo,
+# where Claude (or anything else) can fetch it by a stable URL.
+#
+# Default cadence: every 4 hours, all week (covers crypto's 24/7 trading;
+# stock/ETF numbers just won't change between market closes). Adjust the
+# cron line below any time — it's the only place the schedule lives.
+
+on:
+  schedule:
+    - cron: "15 */4 * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  run-addie:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Addie's pipeline
+        run: python3 scripts/addie_pipeline.py
+
+      - name: Commit fresh snapshot
+        run: |
+          git config user.name "addie-bot"
+          git config user.email "addie-bot@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Addie snapshot: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
