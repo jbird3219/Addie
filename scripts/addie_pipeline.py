@@ -22,7 +22,6 @@ host. See README.md for the full setup.
 Run it with:  python3 addie_pipeline.py
 Requires:     pip install yfinance requests
 """
-
 import json
 import os
 import time
@@ -132,37 +131,52 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 HISTORY_POINTS = 90   # ~3 calendar months — sparkline / ticker-tape mini chart
-COINGECKO_PAUSE = 1.3  # baseline seconds between CoinGecko calls, on top of any retry backoff
-COINGECKO_MAX_RETRIES = 5
-COINGECKO_BACKOFF_BASE = 5  # seconds; doubles each retry (5, 10, 20, 40, 80)
+COINGECKO_PAUSE = 1.3  # seconds between CoinGecko calls — free tier is rate-limited
+
+# File-size guardrail: with the universe at ~84 symbols, 5 years of DAILY bars
+# per equity was ~3.7MB of the dashboard's ~4.5MB, and would roughly double
+# again as the universe grows. Nobody actually needs day-by-day granularity
+# from 4 years ago — the 1M/3M/6M/1Y chart buttons cover the window where
+# daily detail matters. So: keep real daily bars for the most recent ~2
+# trading years, and resample everything older than that down to weekly bars
+# (still real OHLC, just coarser). The 5Y chart button still works, it's just
+# visually less dense further back — which is normal for a zoomed-out view.
+DAILY_WINDOW_TRADING_DAYS = 504  # ~2 calendar years of daily bars kept as-is
 
 
-def coingecko_get(url: str, params: dict, timeout: int):
-    """
-    GET against CoinGecko's free public API with retry-with-backoff on 429.
-    The free tier rate-limits aggressively once a run fires more than a
-    couple of calls in quick succession (seen in practice once the crypto
-    universe grew past ~10 coins) — this makes a burst of calls resilient
-    to that instead of silently dropping symbols.
-    """
-    delay = COINGECKO_BACKOFF_BASE
-    last_resp = None
-    for attempt in range(1, COINGECKO_MAX_RETRIES + 1):
-        resp = requests.get(url, params=params, timeout=timeout)
-        if resp.status_code != 429:
-            resp.raise_for_status()
-            return resp
-        last_resp = resp
-        retry_after = resp.headers.get("Retry-After")
-        wait = float(retry_after) if retry_after else delay
-        print(f"WARN: 429 from CoinGecko on {url.rsplit('/', 1)[-1]} "
-              f"(attempt {attempt}/{COINGECKO_MAX_RETRIES}), retrying in {wait:.0f}s")
-        time.sleep(wait)
-        delay *= 2
-    # Exhausted retries — surface the final 429 the normal way so the
-    # caller's existing except-and-skip handling still applies.
-    last_resp.raise_for_status()
-    return last_resp
+def _ohlc_records(df):
+    return [
+        {
+            "t": idx.strftime("%Y-%m-%d"),
+            "o": round(float(row["Open"]), 2),
+            "h": round(float(row["High"]), 2),
+            "l": round(float(row["Low"]), 2),
+            "c": round(float(row["Close"]), 2),
+        }
+        for idx, row in df.iterrows()
+    ]
+
+
+def _size_trimmed_ohlc(hist):
+    """5y of daily bars -> daily for the recent window + weekly further back."""
+    if len(hist) <= DAILY_WINDOW_TRADING_DAYS:
+        return _ohlc_records(hist)
+
+    older = hist.iloc[: -DAILY_WINDOW_TRADING_DAYS]
+    recent = hist.iloc[-DAILY_WINDOW_TRADING_DAYS:]
+
+    weekly = (
+        older.resample("W-FRI")
+        .agg({"Open": "first", "High": "max", "Low": "min", "Close": "last"})
+        .dropna()
+    )
+    # The last weekly bucket can be a partial week whose Friday label lands
+    # on/after `recent`'s first date (e.g. older data ends on a Tuesday) —
+    # drop any weekly bar that isn't strictly before recent starts, so dates
+    # stay strictly increasing once the two series are concatenated.
+    weekly = weekly[weekly.index < recent.index[0]]
+
+    return _ohlc_records(weekly) + _ohlc_records(recent)
 
 
 def pull_stock(symbol: str, category: str, name: str, is_watchlist: bool) -> dict:
@@ -184,16 +198,8 @@ def pull_stock(symbol: str, category: str, name: str, is_watchlist: bool) -> dic
         {"t": idx.strftime("%Y-%m-%d"), "c": round(float(row["Close"]), 2)}
         for idx, row in recent.iterrows()
     ]
-    ohlc = [
-        {
-            "t": idx.strftime("%Y-%m-%d"),
-            "o": round(float(row["Open"]), 2),
-            "h": round(float(row["High"]), 2),
-            "l": round(float(row["Low"]), 2),
-            "c": round(float(row["Close"]), 2),
-        }
-        for idx, row in hist.iterrows()
-    ]
+
+    ohlc = _size_trimmed_ohlc(hist)
 
     return {
         "symbol": symbol,
@@ -213,7 +219,7 @@ def pull_stock(symbol: str, category: str, name: str, is_watchlist: bool) -> dic
 
 
 def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlist: bool) -> dict:
-    resp = coingecko_get(
+    resp = requests.get(
         "https://api.coingecko.com/api/v3/simple/price",
         params={
             "ids": coin_id,
@@ -223,9 +229,10 @@ def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlis
         },
         timeout=10,
     )
+    resp.raise_for_status()
     d = resp.json()[coin_id]
-    price = round(d["usd"], 2)
 
+    price = round(d["usd"], 2)
     record = {
         "symbol": symbol,
         "name": name,
@@ -239,16 +246,18 @@ def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlis
         "ohlc": [],
         "long_history": [],
     }
+
     time.sleep(COINGECKO_PAUSE)
 
     # Daily OHLC, free-tier capped at 365 days — this is the candlestick source
     # and also where the 52-week range comes from (max/min of the bars).
     try:
-        ohlc_resp = coingecko_get(
+        ohlc_resp = requests.get(
             f"https://api.coingecko.com/api/v3/coins/{coin_id}/ohlc",
             params={"vs_currency": "usd", "days": "365"},
             timeout=20,
         )
+        ohlc_resp.raise_for_status()
         bars = ohlc_resp.json()  # [[ts_ms, open, high, low, close], ...]
         if bars:
             ohlc = []
@@ -256,6 +265,7 @@ def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlis
                 day = datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
                 ohlc.append({"t": day, "o": round(o, 2), "h": round(h, 2), "l": round(l, 2), "c": round(c, 2)})
             record["ohlc"] = ohlc
+
             highs = [b["h"] for b in ohlc]
             lows = [b["l"] for b in ohlc]
             if highs and lows:
@@ -268,16 +278,20 @@ def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlis
                     )
     except requests.RequestException:
         pass  # OHLC/range is a nice-to-have; price/change above already landed.
+
     time.sleep(COINGECKO_PAUSE)
 
-    # Extended close-only series (beyond the 365-day OHLC window) for 5Y/MAX
-    # line-mode charting, and the source for the 90-day sparkline slice.
+    # Extended close-only series (beyond the 365-day OHLC window) for the 5Y
+    # chart / compare / replay. Capped at 5 years (not "max" — some coins go
+    # back over a decade of daily closes, which was real file-size weight for
+    # zero practical value, since the chart's longest button is 5Y anyway).
     try:
-        chart_resp = coingecko_get(
+        chart_resp = requests.get(
             f"https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart",
-            params={"vs_currency": "usd", "days": "max", "interval": "daily"},
+            params={"vs_currency": "usd", "days": "1825", "interval": "daily"},
             timeout=20,
         )
+        chart_resp.raise_for_status()
         prices = chart_resp.json().get("prices", [])
         if prices:
             long_history = []
@@ -288,6 +302,7 @@ def pull_crypto(coin_id: str, category: str, symbol: str, name: str, is_watchlis
             record["history"] = long_history[-HISTORY_POINTS:]
     except requests.RequestException:
         pass
+
     time.sleep(COINGECKO_PAUSE)
 
     return record
@@ -298,11 +313,13 @@ def reason_about(m: dict) -> str:
     Addie v0's commentary logic — deliberately simple and transparent.
     Every clause here is traceable to a specific number, on purpose:
     a black-box "trust me" signal is exactly what we're avoiding.
+
     Deep (multi-agent) reasoning for the watchlist symbols lives separately
     in build_dashboard_data.py / the reasoning Workflow — this stays as the
     cheap, mechanical fallback commentary for every symbol in the universe.
     """
     lines = []
+
     chg = m["day_change_pct"]
     direction = "up" if chg > 0.15 else "down" if chg < -0.15 else "flat"
     lines.append(f"{direction.capitalize()} {abs(chg):.2f}% on the session.")
@@ -339,6 +356,7 @@ def reason_about(m: dict) -> str:
 
 def run():
     records = []
+
     for symbol, category, name, is_watchlist in EQUITY_UNIVERSE:
         try:
             m = pull_stock(symbol, category, name, is_watchlist)
