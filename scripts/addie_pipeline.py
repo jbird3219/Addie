@@ -106,6 +106,23 @@ EQUITY_UNIVERSE = [
     ("TLT", "macro", "20+yr Treasury ETF", False),
     ("SLV", "macro", "Silver ETF", False),
     ("USO", "macro", "Oil ETF", False),
+    # --- Nuclear (added 2026-09-18 at Jonah's request) ---
+    ("OKLO", "nuclear", "Oklo Inc.", False),
+    ("SMR", "nuclear", "NuScale Power", False),
+    ("NNE", "nuclear", "Nano Nuclear Energy", False),
+    ("LEU", "nuclear", "Centrus Energy", False),
+    ("LTBR", "nuclear", "Lightbridge Corp", False),
+    ("CCJ", "nuclear", "Cameco", False),
+    ("CEG", "nuclear", "Constellation Energy", False),
+    ("BWXT", "nuclear", "BWX Technologies", False),
+
+    # --- Energy stocks to pay attention to (added 2026-09-18 at Jonah's request) ---
+    ("PWR", "power", "Quanta Services", False),
+    ("VIVO", "power", "VivoPower International", False),
+    ("BE", "power", "Bloom Energy", False),
+    ("DGXX", "power", "Digi Power X", False),
+    ("VST", "power", "Vistra Corp", False),
+    ("VRT", "power", "Vertiv Holdings", False),
 ]
 
 CRYPTO_UNIVERSE = [
