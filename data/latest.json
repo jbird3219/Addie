@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-10-23T13:29:26.422139+00:00",
+  "run_at_utc": "2026-10-23T19:58:45.357066+00:00",
   "watchlist": [
     {
       "symbol": "SPY",
@@ -7,16 +7,12 @@
       "category": "index",
       "is_watchlist": true,
       "asset_class": "equity",
-      "price": 763.96,
-      "day_change_pct": -0.02,
+      "price": 759.95,
+      "day_change_pct": -0.54,
       "52w_high": 781.62,
       "52w_low": 626.11,
-      "52w_range_position_pct": 88.6,
+      "52w_range_position_pct": 86.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 746.55
-        },
         {
           "t": "2026-06-17",
           "c": 737.23
@@ -372,6 +368,10 @@
         {
           "t": "2026-10-22",
           "c": 763.96
+        },
+        {
+          "t": "2026-10-23",
+          "c": 759.95
         }
       ],
       "ohlc": [
@@ -1199,7 +1199,7 @@
           "o": 468.67,
           "h": 473.62,
           "l": 467.48,
-          "c": 471.97
+          "c": 471.96
         },
         {
           "t": "2024-02-02",
@@ -1332,7 +1332,7 @@
           "o": 513.85,
           "h": 521.49,
           "l": 507.61,
-          "c": 518.69
+          "c": 518.7
         },
         {
           "t": "2024-06-14",
@@ -1462,9 +1462,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 570.9,
-          "h": 572.19,
-          "l": 569.44,
+          "o": 568.11,
+          "h": 572.9,
+          "l": 565.49,
           "c": 571.4
         },
         {
@@ -1849,7 +1849,7 @@
           "t": "2025-01-08",
           "o": 577.36,
           "h": 579.2,
-          "l": 573.93,
+          "l": 573.92,
           "c": 578.13
         },
         {
@@ -2024,7 +2024,7 @@
           "t": "2025-02-14",
           "o": 598.19,
           "h": 599.22,
-          "l": 597.34,
+          "l": 597.33,
           "c": 597.95
         },
         {
@@ -2660,7 +2660,7 @@
         {
           "t": "2025-06-27",
           "o": 604.66,
-          "h": 608.13,
+          "h": 608.12,
           "l": 602.64,
           "c": 606.66
         },
@@ -2690,7 +2690,7 @@
           "o": 614.1,
           "h": 617.88,
           "l": 614.08,
-          "c": 616.95
+          "c": 616.96
         },
         {
           "t": "2025-07-07",
@@ -4987,10 +4987,17 @@
           "h": 767.71,
           "l": 761.17,
           "c": 763.96
+        },
+        {
+          "t": "2026-10-23",
+          "o": 759.9,
+          "h": 763.47,
+          "l": 758.68,
+          "c": 759.95
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.02% on the session. Trading mid-range (89% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.54% on the session. Trading mid-range (86% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "QQQ",
@@ -4998,16 +5005,12 @@
       "category": "index",
       "is_watchlist": true,
       "asset_class": "equity",
-      "price": 704.47,
-      "day_change_pct": 0.17,
+      "price": 704.21,
+      "day_change_pct": 0.13,
       "52w_high": 762.86,
       "52w_low": 554.41,
-      "52w_range_position_pct": 72.0,
+      "52w_range_position_pct": 71.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 728.3
-        },
         {
           "t": "2026-06-17",
           "c": 720.97
@@ -5363,6 +5366,10 @@
         {
           "t": "2026-10-22",
           "c": 704.47
+        },
+        {
+          "t": "2026-10-23",
+          "c": 704.21
         }
       ],
       "ohlc": [
@@ -5665,7 +5672,7 @@
           "o": 321.14,
           "h": 326.01,
           "l": 313.98,
-          "c": 314.75
+          "c": 314.74
         },
         {
           "t": "2022-08-26",
@@ -6453,9 +6460,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 489.11,
-          "h": 490.6,
-          "l": 488.36,
+          "o": 490.8,
+          "h": 493.83,
+          "l": 482.68,
           "c": 489.52
         },
         {
@@ -6691,7 +6698,7 @@
         },
         {
           "t": "2024-12-06",
-          "o": 517.24,
+          "o": 517.25,
           "h": 521.44,
           "l": 517.12,
           "c": 521.2
@@ -6950,7 +6957,7 @@
         },
         {
           "t": "2025-02-03",
-          "o": 509.14,
+          "o": 509.15,
           "h": 516.46,
           "l": 506.75,
           "c": 513.75
@@ -7042,7 +7049,7 @@
         {
           "t": "2025-02-21",
           "o": 533.85,
-          "h": 533.87,
+          "h": 533.86,
           "l": 521.28,
           "c": 521.65
         },
@@ -7211,7 +7218,7 @@
           "t": "2025-03-27",
           "o": 479.06,
           "h": 483.2,
-          "l": 476.92,
+          "l": 476.91,
           "c": 478.28
         },
         {
@@ -7363,7 +7370,7 @@
         },
         {
           "t": "2025-04-29",
-          "o": 466.9,
+          "o": 466.91,
           "h": 473.11,
           "l": 466.33,
           "c": 472.23
@@ -7525,7 +7532,7 @@
         {
           "t": "2025-06-02",
           "o": 513.65,
-          "h": 519.82,
+          "h": 519.81,
           "l": 512.39,
           "c": 519.58
         },
@@ -8534,7 +8541,7 @@
           "t": "2025-12-26",
           "o": 622.54,
           "h": 623.4,
-          "l": 621.02,
+          "l": 621.03,
           "c": 621.77
         },
         {
@@ -8758,7 +8765,7 @@
           "t": "2026-02-12",
           "o": 612.62,
           "h": 613.72,
-          "l": 597.53,
+          "l": 597.54,
           "c": 598.6
         },
         {
@@ -9978,10 +9985,17 @@
           "h": 715.43,
           "l": 701.9,
           "c": 704.47
+        },
+        {
+          "t": "2026-10-23",
+          "o": 702.1,
+          "h": 709.3,
+          "l": 701.16,
+          "c": 704.21
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.17% on the session. Trading mid-range (72% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Flat 0.13% on the session. Trading mid-range (72% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "DIA",
@@ -9989,16 +10003,12 @@
       "category": "index",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 527.89,
-      "day_change_pct": -0.13,
+      "price": 521.56,
+      "day_change_pct": -1.33,
       "52w_high": 544.92,
       "52w_low": 447.15,
-      "52w_range_position_pct": 82.6,
+      "52w_range_position_pct": 76.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 518.13
-        },
         {
           "t": "2026-06-17",
           "c": 513.03
@@ -10354,6 +10364,10 @@
         {
           "t": "2026-10-22",
           "c": 527.89
+        },
+        {
+          "t": "2026-10-23",
+          "c": 521.56
         }
       ],
       "ohlc": [
@@ -10543,7 +10557,7 @@
           "t": "2022-04-29",
           "o": 311.25,
           "h": 315.54,
-          "l": 304.46,
+          "l": 304.45,
           "c": 305.0
         },
         {
@@ -10780,7 +10794,7 @@
         {
           "t": "2022-12-23",
           "o": 308.71,
-          "h": 313.83,
+          "h": 313.84,
           "l": 305.69,
           "c": 311.58
         },
@@ -11374,7 +11388,7 @@
         },
         {
           "t": "2024-08-09",
-          "o": 373.52,
+          "o": 373.53,
           "h": 383.16,
           "l": 371.99,
           "c": 381.86
@@ -11444,9 +11458,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 419.45,
+          "o": 415.48,
           "h": 420.36,
-          "l": 417.58,
+          "l": 414.13,
           "c": 419.82
         },
         {
@@ -11571,7 +11585,7 @@
         {
           "t": "2024-11-13",
           "o": 426.87,
-          "h": 428.46,
+          "h": 428.47,
           "l": 425.45,
           "c": 426.78
         },
@@ -11669,7 +11683,7 @@
         {
           "t": "2024-12-04",
           "o": 436.78,
-          "h": 438.44,
+          "h": 438.43,
           "l": 435.75,
           "c": 437.84
         },
@@ -11851,7 +11865,7 @@
         {
           "t": "2025-01-14",
           "o": 413.73,
-          "h": 414.34,
+          "h": 414.35,
           "l": 410.49,
           "c": 413.99
         },
@@ -11972,7 +11986,7 @@
           "o": 436.19,
           "h": 436.89,
           "l": 431.34,
-          "c": 431.65
+          "c": 431.66
         },
         {
           "t": "2025-02-10",
@@ -12070,7 +12084,7 @@
           "o": 422.48,
           "h": 428.1,
           "l": 420.49,
-          "c": 427.67
+          "c": 427.66
         },
         {
           "t": "2025-03-03",
@@ -12210,7 +12224,7 @@
           "o": 412.46,
           "h": 412.85,
           "l": 405.83,
-          "c": 406.24
+          "c": 406.25
         },
         {
           "t": "2025-03-31",
@@ -12993,7 +13007,7 @@
           "t": "2025-09-09",
           "o": 447.95,
           "h": 450.5,
-          "l": 447.23,
+          "l": 447.22,
           "c": 449.97
         },
         {
@@ -14196,7 +14210,7 @@
         {
           "t": "2026-05-15",
           "o": 494.17,
-          "h": 494.58,
+          "h": 494.59,
           "l": 491.94,
           "c": 492.23
         },
@@ -14969,10 +14983,17 @@
           "h": 528.45,
           "l": 524.29,
           "c": 527.89
+        },
+        {
+          "t": "2026-10-23",
+          "o": 522.74,
+          "h": 523.68,
+          "l": 519.88,
+          "c": 521.56
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.13% on the session. Trading mid-range (83% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.33% on the session. Trading mid-range (76% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "IWM",
@@ -14980,16 +15001,12 @@
       "category": "index",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 276.67,
-      "day_change_pct": 0.04,
+      "price": 275.85,
+      "day_change_pct": -0.26,
       "52w_high": 304.39,
       "52w_low": 226.6,
-      "52w_range_position_pct": 64.4,
+      "52w_range_position_pct": 63.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 291.32
-        },
         {
           "t": "2026-06-17",
           "c": 289.12
@@ -15345,6 +15362,10 @@
         {
           "t": "2026-10-22",
           "c": 276.67
+        },
+        {
+          "t": "2026-10-23",
+          "c": 275.85
         }
       ],
       "ohlc": [
@@ -15834,7 +15855,7 @@
         {
           "t": "2023-02-24",
           "o": 182.46,
-          "h": 183.03,
+          "h": 183.02,
           "l": 177.71,
           "c": 179.36
         },
@@ -16435,9 +16456,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 221.97,
-          "h": 222.33,
-          "l": 220.73,
+          "o": 216.87,
+          "h": 222.47,
+          "l": 215.87,
           "c": 220.98
         },
         {
@@ -17166,7 +17187,7 @@
           "o": 199.56,
           "h": 201.24,
           "l": 198.62,
-          "c": 200.62
+          "c": 200.61
         },
         {
           "t": "2025-03-24",
@@ -18102,7 +18123,7 @@
         {
           "t": "2025-10-02",
           "o": 240.56,
-          "h": 241.64,
+          "h": 241.63,
           "l": 239.04,
           "c": 241.57
         },
@@ -19960,10 +19981,17 @@
           "h": 277.28,
           "l": 274.49,
           "c": 276.67
+        },
+        {
+          "t": "2026-10-23",
+          "o": 274.85,
+          "h": 276.24,
+          "l": 273.35,
+          "c": 275.85
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.04% on the session. Trading mid-range (64% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.26% on the session. Trading mid-range (63% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "VTI",
@@ -19971,16 +19999,12 @@
       "category": "index",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 374.9,
-      "day_change_pct": -0.0,
+      "price": 373.08,
+      "day_change_pct": -0.49,
       "52w_high": 384.15,
       "52w_low": 308.73,
-      "52w_range_position_pct": 87.7,
+      "52w_range_position_pct": 85.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 368.38
-        },
         {
           "t": "2026-06-17",
           "c": 363.79
@@ -20336,6 +20360,10 @@
         {
           "t": "2026-10-22",
           "c": 374.9
+        },
+        {
+          "t": "2026-10-23",
+          "c": 373.08
         }
       ],
       "ohlc": [
@@ -21426,9 +21454,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 281.89,
-          "h": 282.44,
-          "l": 281.12,
+          "o": 280.09,
+          "h": 282.87,
+          "l": 279.17,
           "c": 282.08
         },
         {
@@ -24951,10 +24979,17 @@
           "h": 376.63,
           "l": 373.55,
           "c": 374.9
+        },
+        {
+          "t": "2026-10-23",
+          "o": 373.0,
+          "h": 374.7,
+          "l": 372.18,
+          "c": 373.08
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.00% on the session. Trading mid-range (88% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.49% on the session. Trading mid-range (85% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "EFA",
@@ -24962,16 +24997,12 @@
       "category": "index",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 103.15,
-      "day_change_pct": 0.0,
+      "price": 102.64,
+      "day_change_pct": -0.49,
       "52w_high": 108.89,
       "52w_low": 88.19,
-      "52w_range_position_pct": 72.3,
+      "52w_range_position_pct": 69.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 104.31
-        },
         {
           "t": "2026-06-17",
           "c": 103.78
@@ -25327,6 +25358,10 @@
         {
           "t": "2026-10-22",
           "c": 103.15
+        },
+        {
+          "t": "2026-10-23",
+          "c": 102.64
         }
       ],
       "ohlc": [
@@ -26417,9 +26452,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 76.71,
-          "h": 76.86,
-          "l": 76.53,
+          "o": 76.99,
+          "h": 77.43,
+          "l": 76.04,
           "c": 76.83
         },
         {
@@ -29942,10 +29977,17 @@
           "h": 103.47,
           "l": 102.79,
           "c": 103.15
+        },
+        {
+          "t": "2026-10-23",
+          "o": 102.25,
+          "h": 102.82,
+          "l": 102.09,
+          "c": 102.64
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.00% on the session. Trading mid-range (72% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.49% on the session. Trading mid-range (70% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "NVDA",
@@ -29953,16 +29995,12 @@
       "category": "tech",
       "is_watchlist": true,
       "asset_class": "equity",
-      "price": 212.21,
-      "day_change_pct": -0.08,
+      "price": 211.08,
+      "day_change_pct": -0.61,
       "52w_high": 243.37,
       "52w_low": 163.9,
-      "52w_range_position_pct": 60.8,
+      "52w_range_position_pct": 59.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 207.18
-        },
         {
           "t": "2026-06-17",
           "c": 204.42
@@ -30318,6 +30356,10 @@
         {
           "t": "2026-10-22",
           "c": 212.21
+        },
+        {
+          "t": "2026-10-23",
+          "c": 211.08
         }
       ],
       "ohlc": [
@@ -31408,9 +31450,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 138.3,
-          "h": 138.53,
-          "l": 136.91,
+          "o": 136.1,
+          "h": 140.51,
+          "l": 128.4,
           "c": 137.63
         },
         {
@@ -32844,7 +32886,7 @@
         {
           "t": "2025-08-15",
           "o": 181.44,
-          "h": 181.45,
+          "h": 181.46,
           "l": 177.6,
           "c": 180.01
         },
@@ -32979,7 +33021,7 @@
           "o": 177.35,
           "h": 178.17,
           "l": 176.03,
-          "c": 177.4
+          "c": 177.39
         },
         {
           "t": "2025-09-15",
@@ -33343,7 +33385,7 @@
           "o": 174.49,
           "h": 177.73,
           "l": 169.14,
-          "c": 177.4
+          "c": 177.39
         },
         {
           "t": "2025-11-26",
@@ -34933,10 +34975,17 @@
           "h": 218.88,
           "l": 211.26,
           "c": 212.21
+        },
+        {
+          "t": "2026-10-23",
+          "o": 210.94,
+          "h": 213.85,
+          "l": 210.18,
+          "c": 211.08
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Trading mid-range (61% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.61% on the session. Trading mid-range (59% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "AAPL",
@@ -34944,16 +34993,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 348.22,
-      "day_change_pct": -0.11,
-      "52w_high": 348.36,
+      "price": 347.7,
+      "day_change_pct": -0.26,
+      "52w_high": 351.73,
       "52w_low": 242.76,
-      "52w_range_position_pct": 99.9,
+      "52w_range_position_pct": 96.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 298.98
-        },
         {
           "t": "2026-06-17",
           "c": 295.69
@@ -35309,6 +35354,10 @@
         {
           "t": "2026-10-22",
           "c": 348.22
+        },
+        {
+          "t": "2026-10-23",
+          "c": 347.7
         }
       ],
       "ohlc": [
@@ -35370,7 +35419,7 @@
         },
         {
           "t": "2021-12-24",
-          "o": 164.37,
+          "o": 164.38,
           "h": 172.75,
           "l": 163.57,
           "c": 172.19
@@ -35482,7 +35531,7 @@
         },
         {
           "t": "2022-04-15",
-          "o": 165.0,
+          "o": 165.01,
           "h": 167.51,
           "l": 161.42,
           "c": 161.66
@@ -36141,7 +36190,7 @@
         {
           "t": "2024-02-02",
           "o": 189.7,
-          "h": 189.89,
+          "h": 189.88,
           "l": 177.09,
           "c": 183.61
         },
@@ -36182,7 +36231,7 @@
         },
         {
           "t": "2024-03-15",
-          "o": 171.08,
+          "o": 171.07,
           "h": 172.5,
           "l": 168.45,
           "c": 170.76
@@ -36399,9 +36448,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 234.22,
-          "h": 234.22,
-          "l": 232.07,
+          "o": 226.8,
+          "h": 235.52,
+          "l": 226.7,
           "c": 233.05
         },
         {
@@ -37960,7 +38009,7 @@
         },
         {
           "t": "2025-09-11",
-          "o": 226.05,
+          "o": 226.04,
           "h": 229.6,
           "l": 225.82,
           "c": 229.18
@@ -39924,10 +39973,17 @@
           "h": 348.36,
           "l": 342.28,
           "c": 348.22
+        },
+        {
+          "t": "2026-10-23",
+          "o": 349.11,
+          "h": 351.73,
+          "l": 345.75,
+          "c": 347.7
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.11% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 0.26% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "MSFT",
@@ -39935,16 +39991,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 521.08,
-      "day_change_pct": -0.18,
+      "price": 524.77,
+      "day_change_pct": 0.53,
       "52w_high": 551.15,
       "52w_low": 348.54,
-      "52w_range_position_pct": 85.2,
+      "52w_range_position_pct": 87.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 393.09
-        },
         {
           "t": "2026-06-17",
           "c": 378.2
@@ -40300,6 +40352,10 @@
         {
           "t": "2026-10-22",
           "c": 521.08
+        },
+        {
+          "t": "2026-10-23",
+          "c": 524.79
         }
       ],
       "ohlc": [
@@ -40501,7 +40557,7 @@
         },
         {
           "t": "2022-05-13",
-          "o": 260.19,
+          "o": 260.2,
           "h": 263.75,
           "l": 240.89,
           "c": 251.58
@@ -40585,7 +40641,7 @@
         },
         {
           "t": "2022-08-05",
-          "o": 268.3,
+          "o": 268.29,
           "h": 274.07,
           "l": 263.04,
           "c": 273.21
@@ -40601,7 +40657,7 @@
           "t": "2022-08-19",
           "o": 281.02,
           "h": 284.09,
-          "l": 276.35,
+          "l": 276.36,
           "c": 276.93
         },
         {
@@ -41390,9 +41446,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 410.65,
-          "h": 413.12,
-          "l": 409.79,
+          "o": 411.27,
+          "h": 417.45,
+          "l": 404.1,
           "c": 411.66
         },
         {
@@ -42519,7 +42575,7 @@
           "t": "2025-06-12",
           "o": 470.37,
           "h": 475.72,
-          "l": 468.89,
+          "l": 468.88,
           "c": 474.18
         },
         {
@@ -42581,7 +42637,7 @@
         {
           "t": "2025-06-26",
           "o": 488.15,
-          "h": 493.17,
+          "h": 493.16,
           "l": 487.99,
           "c": 492.58
         },
@@ -42818,7 +42874,7 @@
         },
         {
           "t": "2025-08-14",
-          "o": 517.45,
+          "o": 517.44,
           "h": 520.8,
           "l": 515.05,
           "c": 517.37
@@ -44915,10 +44971,17 @@
           "h": 533.6,
           "l": 520.3,
           "c": 521.08
+        },
+        {
+          "t": "2026-10-23",
+          "o": 517.99,
+          "h": 525.77,
+          "l": 515.7,
+          "c": 524.79
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.18% on the session. Trading mid-range (85% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 0.53% on the session. Trading mid-range (87% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "GOOGL",
@@ -44926,16 +44989,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 324.22,
-      "day_change_pct": -0.02,
+      "price": 320.32,
+      "day_change_pct": -1.22,
       "52w_high": 408.1,
-      "52w_low": 248.64,
-      "52w_range_position_pct": 47.4,
+      "52w_low": 251.2,
+      "52w_range_position_pct": 44.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 373.01
-        },
         {
           "t": "2026-06-17",
           "c": 363.56
@@ -45291,6 +45350,10 @@
         {
           "t": "2026-10-22",
           "c": 324.22
+        },
+        {
+          "t": "2026-10-23",
+          "c": 320.32
         }
       ],
       "ohlc": [
@@ -46381,9 +46444,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 162.05,
-          "h": 163.56,
-          "l": 161.94,
+          "o": 162.5,
+          "h": 166.51,
+          "l": 161.63,
           "c": 162.28
         },
         {
@@ -47930,7 +47993,7 @@
           "t": "2025-09-09",
           "o": 233.56,
           "h": 239.85,
-          "l": 232.63,
+          "l": 232.62,
           "c": 239.01
         },
         {
@@ -48763,7 +48826,7 @@
           "t": "2026-03-02",
           "o": 302.64,
           "h": 307.89,
-          "l": 300.71,
+          "l": 300.72,
           "c": 305.92
         },
         {
@@ -49906,10 +49969,17 @@
           "h": 331.43,
           "l": 322.0,
           "c": 324.22
+        },
+        {
+          "t": "2026-10-23",
+          "o": 320.88,
+          "h": 324.53,
+          "l": 320.18,
+          "c": 320.32
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.02% on the session. Trading mid-range (47% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.22% on the session. Trading mid-range (44% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "META",
@@ -49917,16 +49987,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 648.85,
-      "day_change_pct": 0.46,
+      "price": 642.74,
+      "day_change_pct": -0.49,
       "52w_high": 779.82,
       "52w_low": 519.37,
-      "52w_range_position_pct": 49.7,
+      "52w_range_position_pct": 47.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 599.74
-        },
         {
           "t": "2026-06-17",
           "c": 567.13
@@ -50282,6 +50348,10 @@
         {
           "t": "2026-10-22",
           "c": 648.85
+        },
+        {
+          "t": "2026-10-23",
+          "c": 642.73
         }
       ],
       "ohlc": [
@@ -50309,7 +50379,7 @@
         {
           "t": "2021-11-19",
           "o": 341.07,
-          "h": 350.29,
+          "h": 350.3,
           "l": 332.12,
           "c": 342.02
         },
@@ -51092,7 +51162,7 @@
         },
         {
           "t": "2024-01-12",
-          "o": 351.33,
+          "o": 351.34,
           "h": 373.48,
           "l": 348.71,
           "c": 370.94
@@ -51372,9 +51442,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 577.32,
-          "h": 580.17,
-          "l": 571.51,
+          "o": 590.35,
+          "h": 596.2,
+          "l": 570.3,
           "c": 572.72
         },
         {
@@ -51648,7 +51718,7 @@
           "o": 623.14,
           "h": 626.98,
           "l": 612.88,
-          "c": 616.31
+          "c": 616.32
         },
         {
           "t": "2024-12-16",
@@ -51870,7 +51940,7 @@
         {
           "t": "2025-02-03",
           "o": 672.06,
-          "h": 699.99,
+          "h": 699.98,
           "l": 671.4,
           "c": 693.48
         },
@@ -52418,7 +52488,7 @@
           "o": 632.35,
           "h": 639.98,
           "l": 629.7,
-          "c": 639.22
+          "c": 639.23
         },
         {
           "t": "2025-05-28",
@@ -52976,7 +53046,7 @@
         {
           "t": "2025-09-19",
           "o": 783.23,
-          "h": 787.6,
+          "h": 787.59,
           "l": 766.07,
           "c": 775.23
         },
@@ -53705,7 +53775,7 @@
           "t": "2026-02-19",
           "o": 636.93,
           "h": 645.53,
-          "l": 635.08,
+          "l": 635.09,
           "c": 643.12
         },
         {
@@ -54897,10 +54967,17 @@
           "h": 681.07,
           "l": 639.69,
           "c": 648.85
+        },
+        {
+          "t": "2026-10-23",
+          "o": 638.12,
+          "h": 648.04,
+          "l": 633.27,
+          "c": 642.73
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.46% on the session. Trading mid-range (50% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.49% on the session. Trading mid-range (47% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "AMZN",
@@ -54908,16 +54985,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 250.38,
-      "day_change_pct": -0.17,
+      "price": 248.13,
+      "day_change_pct": -1.07,
       "52w_high": 287.2,
       "52w_low": 196.0,
-      "52w_range_position_pct": 59.6,
+      "52w_range_position_pct": 57.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 246.0
-        },
         {
           "t": "2026-06-17",
           "c": 237.5
@@ -55273,6 +55346,10 @@
         {
           "t": "2026-10-22",
           "c": 250.38
+        },
+        {
+          "t": "2026-10-23",
+          "c": 248.13
         }
       ],
       "ohlc": [
@@ -56363,9 +56440,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 187.15,
+          "o": 189.78,
           "h": 190.74,
-          "l": 186.28,
+          "l": 184.58,
           "c": 188.99
         },
         {
@@ -59888,10 +59965,17 @@
           "h": 258.41,
           "l": 248.0,
           "c": 250.38
+        },
+        {
+          "t": "2026-10-23",
+          "o": 248.55,
+          "h": 250.01,
+          "l": 246.45,
+          "c": 248.13
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.17% on the session. Trading mid-range (60% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.07% on the session. Trading mid-range (57% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "TSLA",
@@ -59899,16 +59983,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 374.58,
-      "day_change_pct": 0.33,
+      "price": 372.8,
+      "day_change_pct": -0.15,
       "52w_high": 498.83,
       "52w_low": 297.38,
-      "52w_range_position_pct": 38.3,
+      "52w_range_position_pct": 37.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 404.66
-        },
         {
           "t": "2026-06-17",
           "c": 396.38
@@ -60264,6 +60344,10 @@
         {
           "t": "2026-10-22",
           "c": 374.58
+        },
+        {
+          "t": "2026-10-23",
+          "c": 372.75
         }
       ],
       "ohlc": [
@@ -61354,9 +61438,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 220.71,
-          "h": 222.28,
-          "l": 219.23,
+          "o": 220.13,
+          "h": 224.26,
+          "l": 213.74,
           "c": 220.7
         },
         {
@@ -64879,10 +64963,17 @@
           "h": 388.86,
           "l": 373.71,
           "c": 374.58
+        },
+        {
+          "t": "2026-10-23",
+          "o": 373.14,
+          "h": 377.3,
+          "l": 365.27,
+          "c": 372.75
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.33% on the session. Trading mid-range (38% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Flat 0.15% on the session. Trading mid-range (37% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "AVGO",
@@ -64890,16 +64981,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 323.24,
-      "day_change_pct": 0.23,
+      "price": 321.5,
+      "day_change_pct": -0.31,
       "52w_high": 493.32,
       "52w_low": 288.98,
-      "52w_range_position_pct": 16.8,
+      "52w_range_position_pct": 15.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 375.43
-        },
         {
           "t": "2026-06-17",
           "c": 391.57
@@ -65255,6 +65342,10 @@
         {
           "t": "2026-10-22",
           "c": 323.24
+        },
+        {
+          "t": "2026-10-23",
+          "c": 321.51
         }
       ],
       "ohlc": [
@@ -66345,9 +66436,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 179.22,
-          "h": 179.6,
-          "l": 175.64,
+          "o": 180.18,
+          "h": 182.35,
+          "l": 170.42,
           "c": 176.83
         },
         {
@@ -67682,7 +67773,7 @@
         },
         {
           "t": "2025-07-28",
-          "o": 289.81,
+          "o": 289.8,
           "h": 292.77,
           "l": 287.95,
           "c": 291.63
@@ -69870,10 +69961,17 @@
           "h": 330.82,
           "l": 321.02,
           "c": 323.24
+        },
+        {
+          "t": "2026-10-23",
+          "o": 321.25,
+          "h": 327.7,
+          "l": 320.23,
+          "c": 321.51
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.23% on the session. Trading mid-range (17% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.31% on the session. Trading mid-range (16% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "AMD",
@@ -69881,16 +69979,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 507.93,
-      "day_change_pct": 0.43,
+      "price": 515.94,
+      "day_change_pct": 2.02,
       "52w_high": 658.52,
       "52w_low": 188.22,
-      "52w_range_position_pct": 68.0,
+      "52w_range_position_pct": 69.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 507.29
-        },
         {
           "t": "2026-06-17",
           "c": 512.48
@@ -70246,6 +70340,10 @@
         {
           "t": "2026-10-22",
           "c": 507.93
+        },
+        {
+          "t": "2026-10-23",
+          "c": 515.94
         }
       ],
       "ohlc": [
@@ -71336,9 +71434,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 157.41,
-          "h": 158.01,
-          "l": 155.56,
+          "o": 167.77,
+          "h": 168.9,
+          "l": 154.92,
           "c": 155.97
         },
         {
@@ -74861,10 +74959,17 @@
           "h": 529.98,
           "l": 502.6,
           "c": 507.93
+        },
+        {
+          "t": "2026-10-23",
+          "o": 510.15,
+          "h": 523.92,
+          "l": 508.36,
+          "c": 515.94
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.43% on the session. Trading mid-range (68% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 2.02% on the session. Trading mid-range (70% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "CRM",
@@ -74872,16 +74977,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 250.29,
-      "day_change_pct": -0.08,
+      "price": 248.75,
+      "day_change_pct": -0.7,
       "52w_high": 267.8,
       "52w_low": 146.06,
-      "52w_range_position_pct": 85.6,
+      "52w_range_position_pct": 84.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 161.43
-        },
         {
           "t": "2026-06-17",
           "c": 154.75
@@ -75237,6 +75338,10 @@
         {
           "t": "2026-10-22",
           "c": 250.29
+        },
+        {
+          "t": "2026-10-23",
+          "c": 248.74
         }
       ],
       "ohlc": [
@@ -76327,9 +76432,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 287.84,
+          "o": 285.75,
           "h": 290.47,
-          "l": 285.98,
+          "l": 280.14,
           "c": 288.73
         },
         {
@@ -76825,7 +76930,7 @@
         {
           "t": "2025-02-03",
           "o": 331.52,
-          "h": 336.93,
+          "h": 336.94,
           "l": 326.87,
           "c": 334.74
         },
@@ -76973,7 +77078,7 @@
           "t": "2025-03-05",
           "o": 283.41,
           "h": 288.8,
-          "l": 281.83,
+          "l": 281.84,
           "c": 288.1
         },
         {
@@ -79852,10 +79957,17 @@
           "h": 252.42,
           "l": 242.7,
           "c": 250.29
+        },
+        {
+          "t": "2026-10-23",
+          "o": 248.59,
+          "h": 249.41,
+          "l": 242.3,
+          "c": 248.74
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Trading mid-range (86% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.70% on the session. Trading mid-range (84% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "ORCL",
@@ -79863,16 +79975,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 125.54,
-      "day_change_pct": 0.26,
+      "price": 125.99,
+      "day_change_pct": 0.62,
       "52w_high": 283.4,
       "52w_low": 114.08,
-      "52w_range_position_pct": 6.8,
+      "52w_range_position_pct": 7.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 186.99
-        },
         {
           "t": "2026-06-17",
           "c": 182.22
@@ -80228,6 +80336,10 @@
         {
           "t": "2026-10-22",
           "c": 125.54
+        },
+        {
+          "t": "2026-10-23",
+          "c": 125.99
         }
       ],
       "ohlc": [
@@ -80843,7 +80955,7 @@
         {
           "t": "2023-06-30",
           "o": 113.08,
-          "h": 116.67,
+          "h": 116.66,
           "l": 109.86,
           "c": 114.13
         },
@@ -80856,7 +80968,7 @@
         },
         {
           "t": "2023-07-14",
-          "o": 109.52,
+          "o": 109.53,
           "h": 115.38,
           "l": 108.93,
           "c": 114.71
@@ -81318,9 +81430,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 172.75,
-          "h": 172.91,
-          "l": 170.58,
+          "o": 172.5,
+          "h": 174.13,
+          "l": 167.71,
           "c": 170.69
         },
         {
@@ -82118,7 +82230,7 @@
           "t": "2025-04-04",
           "o": 130.18,
           "h": 131.07,
-          "l": 124.35,
+          "l": 124.34,
           "c": 125.64
         },
         {
@@ -83042,7 +83154,7 @@
           "t": "2025-10-14",
           "o": 299.56,
           "h": 300.4,
-          "l": 288.12,
+          "l": 288.13,
           "c": 295.05
         },
         {
@@ -83096,7 +83208,7 @@
         },
         {
           "t": "2025-10-24",
-          "o": 282.14,
+          "o": 282.15,
           "h": 283.4,
           "l": 278.52,
           "c": 279.59
@@ -84843,10 +84955,17 @@
           "h": 127.94,
           "l": 122.76,
           "c": 125.54
+        },
+        {
+          "t": "2026-10-23",
+          "o": 124.87,
+          "h": 128.33,
+          "l": 124.4,
+          "c": 125.99
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.26% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Up 0.62% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "NFLX",
@@ -84854,16 +84973,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 67.05,
-      "day_change_pct": 0.07,
+      "price": 65.84,
+      "day_change_pct": -1.73,
       "52w_high": 116.73,
       "52w_low": 64.1,
-      "52w_range_position_pct": 5.6,
+      "52w_range_position_pct": 3.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 78.72
-        },
         {
           "t": "2026-06-17",
           "c": 76.96
@@ -85219,6 +85334,10 @@
         {
           "t": "2026-10-22",
           "c": 67.05
+        },
+        {
+          "t": "2026-10-23",
+          "c": 65.84
         }
       ],
       "ohlc": [
@@ -86309,9 +86428,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 73.76,
+          "o": 72.5,
           "h": 76.63,
-          "l": 73.62,
+          "l": 67.79,
           "c": 76.39
         },
         {
@@ -89834,10 +89953,17 @@
           "h": 67.49,
           "l": 65.02,
           "c": 67.05
+        },
+        {
+          "t": "2026-10-23",
+          "o": 67.01,
+          "h": 67.82,
+          "l": 65.78,
+          "c": 65.84
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.07% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 1.73% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "INTC",
@@ -89845,16 +89971,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 85.49,
-      "day_change_pct": 0.86,
+      "price": 86.79,
+      "day_change_pct": 2.39,
       "52w_high": 142.35,
       "52w_low": 32.89,
-      "52w_range_position_pct": 48.1,
+      "52w_range_position_pct": 49.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 117.05
-        },
         {
           "t": "2026-06-17",
           "c": 121.1
@@ -90210,6 +90332,10 @@
         {
           "t": "2026-10-22",
           "c": 85.49
+        },
+        {
+          "t": "2026-10-23",
+          "c": 86.79
         }
       ],
       "ohlc": [
@@ -90355,7 +90481,7 @@
         },
         {
           "t": "2022-03-18",
-          "o": 42.9,
+          "o": 42.89,
           "h": 44.48,
           "l": 41.18,
           "c": 44.34
@@ -91300,9 +91426,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 22.61,
-          "h": 22.82,
-          "l": 22.5,
+          "o": 23.58,
+          "h": 23.77,
+          "l": 21.74,
           "c": 22.77
         },
         {
@@ -94825,10 +94951,17 @@
           "h": 89.19,
           "l": 84.65,
           "c": 85.49
+        },
+        {
+          "t": "2026-10-23",
+          "o": 85.87,
+          "h": 87.86,
+          "l": 84.74,
+          "c": 86.79
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.86% on the session. Trading mid-range (48% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 2.39% on the session. Trading mid-range (49% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "IBM",
@@ -94836,16 +94969,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 252.11,
-      "day_change_pct": 0.62,
+      "price": 253.8,
+      "day_change_pct": 1.29,
       "52w_high": 330.09,
       "52w_low": 197.77,
-      "52w_range_position_pct": 41.1,
+      "52w_range_position_pct": 42.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 268.88
-        },
         {
           "t": "2026-06-17",
           "c": 260.48
@@ -95201,6 +95330,10 @@
         {
           "t": "2026-10-22",
           "c": 252.11
+        },
+        {
+          "t": "2026-10-23",
+          "c": 253.8
         }
       ],
       "ohlc": [
@@ -95439,7 +95572,7 @@
           "t": "2022-06-17",
           "o": 114.85,
           "h": 118.69,
-          "l": 113.88,
+          "l": 113.89,
           "c": 115.75
         },
         {
@@ -96111,7 +96244,7 @@
           "t": "2024-04-19",
           "o": 172.66,
           "h": 174.44,
-          "l": 167.63,
+          "l": 167.64,
           "c": 168.95
         },
         {
@@ -96291,8 +96424,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 219.83,
-          "h": 220.52,
+          "o": 221.4,
+          "h": 225.0,
           "l": 218.17,
           "c": 220.1
         },
@@ -96369,7 +96502,7 @@
         {
           "t": "2024-11-04",
           "o": 196.83,
-          "h": 196.88,
+          "h": 196.87,
           "l": 195.07,
           "c": 195.57
         },
@@ -96837,7 +96970,7 @@
         },
         {
           "t": "2025-02-12",
-          "o": 243.05,
+          "o": 243.04,
           "h": 246.58,
           "l": 242.37,
           "c": 246.02
@@ -97127,7 +97260,7 @@
           "o": 220.93,
           "h": 228.48,
           "l": 218.8,
-          "c": 226.46
+          "c": 226.47
         },
         {
           "t": "2025-04-14",
@@ -97187,7 +97320,7 @@
         },
         {
           "t": "2025-04-25",
-          "o": 220.18,
+          "o": 220.19,
           "h": 224.43,
           "l": 217.66,
           "c": 223.51
@@ -98448,7 +98581,7 @@
         {
           "t": "2026-01-13",
           "o": 305.38,
-          "h": 306.56,
+          "h": 306.57,
           "l": 295.84,
           "c": 297.11
         },
@@ -99816,10 +99949,17 @@
           "h": 256.3,
           "l": 240.0,
           "c": 252.11
+        },
+        {
+          "t": "2026-10-23",
+          "o": 249.73,
+          "h": 254.71,
+          "l": 247.03,
+          "c": 253.8
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.62% on the session. Trading mid-range (41% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 1.29% on the session. Trading mid-range (42% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "PLTR",
@@ -99827,16 +99967,12 @@
       "category": "tech",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 196.19,
-      "day_change_pct": -0.51,
+      "price": 196.89,
+      "day_change_pct": -0.16,
       "52w_high": 212.94,
       "52w_low": 106.37,
-      "52w_range_position_pct": 84.3,
+      "52w_range_position_pct": 84.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 133.25
-        },
         {
           "t": "2026-06-17",
           "c": 130.63
@@ -100192,6 +100328,10 @@
         {
           "t": "2026-10-22",
           "c": 196.19
+        },
+        {
+          "t": "2026-10-23",
+          "c": 196.9
         }
       ],
       "ohlc": [
@@ -101282,9 +101422,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 42.01,
-          "h": 42.99,
-          "l": 41.65,
+          "o": 43.72,
+          "h": 44.39,
+          "l": 40.36,
           "c": 42.97
         },
         {
@@ -104807,10 +104947,17 @@
           "h": 202.63,
           "l": 194.54,
           "c": 196.19
+        },
+        {
+          "t": "2026-10-23",
+          "o": 195.02,
+          "h": 197.49,
+          "l": 190.57,
+          "c": 196.9
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.51% on the session. Trading mid-range (84% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.16% on the session. Trading mid-range (85% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "BABA",
@@ -104818,16 +104965,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 101.82,
-      "day_change_pct": 0.42,
+      "price": 99.57,
+      "day_change_pct": -1.79,
       "52w_high": 180.84,
       "52w_low": 91.99,
-      "52w_range_position_pct": 11.1,
+      "52w_range_position_pct": 8.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 110.97
-        },
         {
           "t": "2026-06-17",
           "c": 107.44
@@ -105183,6 +105326,10 @@
         {
           "t": "2026-10-22",
           "c": 101.82
+        },
+        {
+          "t": "2026-10-23",
+          "c": 99.57
         }
       ],
       "ohlc": [
@@ -106273,9 +106420,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 100.72,
-          "h": 100.72,
-          "l": 99.06,
+          "o": 105.54,
+          "h": 107.27,
+          "l": 97.0,
           "c": 99.81
         },
         {
@@ -109798,10 +109945,17 @@
           "h": 103.3,
           "l": 100.71,
           "c": 101.82
+        },
+        {
+          "t": "2026-10-23",
+          "o": 99.55,
+          "h": 100.61,
+          "l": 99.46,
+          "c": 99.57
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.42% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 1.79% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "PDD",
@@ -109809,16 +109963,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 79.17,
-      "day_change_pct": 0.23,
+      "price": 79.05,
+      "day_change_pct": 0.08,
       "52w_high": 139.41,
       "52w_low": 71.94,
-      "52w_range_position_pct": 10.7,
+      "52w_range_position_pct": 10.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 81.59
-        },
         {
           "t": "2026-06-17",
           "c": 79.86
@@ -110174,6 +110324,10 @@
         {
           "t": "2026-10-22",
           "c": 79.17
+        },
+        {
+          "t": "2026-10-23",
+          "c": 79.05
         }
       ],
       "ohlc": [
@@ -111264,9 +111418,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 128.32,
-          "h": 128.6,
-          "l": 123.96,
+          "o": 140.54,
+          "h": 142.39,
+          "l": 122.32,
           "c": 124.62
         },
         {
@@ -114789,10 +114943,17 @@
           "h": 79.91,
           "l": 77.23,
           "c": 79.17
+        },
+        {
+          "t": "2026-10-23",
+          "o": 79.15,
+          "h": 80.17,
+          "l": 78.68,
+          "c": 79.05
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.23% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Flat 0.08% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "JD",
@@ -114800,16 +114961,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 25.68,
-      "day_change_pct": 0.04,
+      "price": 25.35,
+      "day_change_pct": -1.23,
       "52w_high": 34.3,
       "52w_low": 23.66,
-      "52w_range_position_pct": 19.0,
+      "52w_range_position_pct": 15.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 28.38
-        },
         {
           "t": "2026-06-17",
           "c": 27.91
@@ -115165,6 +115322,10 @@
         {
           "t": "2026-10-22",
           "c": 25.68
+        },
+        {
+          "t": "2026-10-23",
+          "c": 25.35
         }
       ],
       "ohlc": [
@@ -116255,9 +116416,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 38.3,
-          "h": 38.44,
-          "l": 37.1,
+          "o": 41.05,
+          "h": 42.53,
+          "l": 36.23,
           "c": 37.5
         },
         {
@@ -119780,10 +119941,17 @@
           "h": 25.85,
           "l": 25.18,
           "c": 25.68
+        },
+        {
+          "t": "2026-10-23",
+          "o": 25.63,
+          "h": 25.74,
+          "l": 25.32,
+          "c": 25.35
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.04% on the session. Trading mid-range (19% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.23% on the session. Trading mid-range (16% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "NIO",
@@ -119791,16 +119959,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 3.31,
-      "day_change_pct": 0.32,
+      "price": 3.29,
+      "day_change_pct": -0.28,
       "52w_high": 7.54,
       "52w_low": 3.24,
-      "52w_range_position_pct": 1.6,
+      "52w_range_position_pct": 1.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 5.01
-        },
         {
           "t": "2026-06-17",
           "c": 5.05
@@ -120156,6 +120320,10 @@
         {
           "t": "2026-10-22",
           "c": 3.31
+        },
+        {
+          "t": "2026-10-23",
+          "c": 3.3
         }
       ],
       "ohlc": [
@@ -121246,9 +121414,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 5.46,
-          "h": 5.49,
-          "l": 5.18,
+          "o": 6.06,
+          "h": 6.18,
+          "l": 5.05,
           "c": 5.22
         },
         {
@@ -124771,10 +124939,17 @@
           "h": 3.37,
           "l": 3.24,
           "c": 3.31
+        },
+        {
+          "t": "2026-10-23",
+          "o": 3.36,
+          "h": 3.41,
+          "l": 3.29,
+          "c": 3.3
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.32% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 0.28% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "BIDU",
@@ -124782,16 +124957,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 77.98,
-      "day_change_pct": 0.35,
+      "price": 77.14,
+      "day_change_pct": -0.74,
       "52w_high": 165.3,
       "52w_low": 76.73,
-      "52w_range_position_pct": 1.4,
+      "52w_range_position_pct": 0.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 112.72
-        },
         {
           "t": "2026-06-17",
           "c": 111.61
@@ -125147,6 +125318,10 @@
         {
           "t": "2026-10-22",
           "c": 77.98
+        },
+        {
+          "t": "2026-10-23",
+          "c": 77.14
         }
       ],
       "ohlc": [
@@ -126237,9 +126412,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 95.89,
-          "h": 95.95,
-          "l": 94.04,
+          "o": 100.96,
+          "h": 101.12,
+          "l": 91.69,
           "c": 94.39
         },
         {
@@ -129762,10 +129937,17 @@
           "h": 79.3,
           "l": 76.73,
           "c": 77.98
+        },
+        {
+          "t": "2026-10-23",
+          "o": 77.51,
+          "h": 78.09,
+          "l": 77.09,
+          "c": 77.14
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.35% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 0.74% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "LI",
@@ -129773,16 +129955,12 @@
       "category": "china",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 11.47,
-      "day_change_pct": 0.17,
+      "price": 11.39,
+      "day_change_pct": -0.57,
       "52w_high": 22.44,
       "52w_low": 10.66,
-      "52w_range_position_pct": 6.9,
+      "52w_range_position_pct": 6.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 14.04
-        },
         {
           "t": "2026-06-17",
           "c": 13.58
@@ -130138,6 +130316,10 @@
         {
           "t": "2026-10-22",
           "c": 11.47
+        },
+        {
+          "t": "2026-10-23",
+          "c": 11.39
         }
       ],
       "ohlc": [
@@ -131228,9 +131410,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 25.28,
-          "h": 25.54,
-          "l": 24.79,
+          "o": 27.05,
+          "h": 27.72,
+          "l": 23.63,
           "c": 25.25
         },
         {
@@ -134753,10 +134935,17 @@
           "h": 11.59,
           "l": 11.1,
           "c": 11.47
+        },
+        {
+          "t": "2026-10-23",
+          "o": 11.54,
+          "h": 11.64,
+          "l": 11.35,
+          "c": 11.39
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.17% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 0.57% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "CAT",
@@ -134764,16 +134953,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 704.05,
-      "day_change_pct": 0.08,
+      "price": 686.14,
+      "day_change_pct": -2.47,
       "52w_high": 1071.47,
-      "52w_low": 507.11,
-      "52w_range_position_pct": 34.9,
+      "52w_low": 509.89,
+      "52w_range_position_pct": 31.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 943.71
-        },
         {
           "t": "2026-06-17",
           "c": 954.15
@@ -135129,6 +135314,10 @@
         {
           "t": "2026-10-22",
           "c": 704.05
+        },
+        {
+          "t": "2026-10-23",
+          "c": 686.14
         }
       ],
       "ohlc": [
@@ -136219,9 +136408,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 386.6,
-          "h": 386.79,
-          "l": 380.22,
+          "o": 383.8,
+          "h": 387.44,
+          "l": 377.44,
           "c": 384.26
         },
         {
@@ -138000,7 +138189,7 @@
           "o": 519.68,
           "h": 524.03,
           "l": 517.86,
-          "c": 519.55
+          "c": 519.56
         },
         {
           "t": "2025-10-27",
@@ -139744,10 +139933,17 @@
           "h": 722.4,
           "l": 695.33,
           "c": 704.05
+        },
+        {
+          "t": "2026-10-23",
+          "o": 694.37,
+          "h": 696.05,
+          "l": 681.23,
+          "c": 686.14
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Trading mid-range (35% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.47% on the session. Trading mid-range (31% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "DE",
@@ -139755,16 +139951,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 643.62,
-      "day_change_pct": 0.17,
+      "price": 644.11,
+      "day_change_pct": 0.25,
       "52w_high": 719.5,
       "52w_low": 449.37,
-      "52w_range_position_pct": 71.9,
+      "52w_range_position_pct": 72.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 582.39
-        },
         {
           "t": "2026-06-17",
           "c": 585.55
@@ -140120,6 +140312,10 @@
         {
           "t": "2026-10-22",
           "c": 643.62
+        },
+        {
+          "t": "2026-10-23",
+          "c": 644.11
         }
       ],
       "ohlc": [
@@ -140315,7 +140511,7 @@
         {
           "t": "2022-05-06",
           "o": 353.28,
-          "h": 375.38,
+          "h": 375.37,
           "l": 350.12,
           "c": 355.64
         },
@@ -140422,7 +140618,7 @@
           "o": 342.76,
           "h": 353.07,
           "l": 333.86,
-          "c": 349.57
+          "c": 349.56
         },
         {
           "t": "2022-08-26",
@@ -141175,7 +141371,7 @@
         },
         {
           "t": "2024-09-13",
-          "o": 373.23,
+          "o": 373.22,
           "h": 383.97,
           "l": 367.9,
           "c": 383.47
@@ -141210,9 +141406,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 396.82,
-          "h": 399.35,
-          "l": 394.1,
+          "o": 397.84,
+          "h": 400.19,
+          "l": 386.62,
           "c": 398.52
         },
         {
@@ -142190,7 +142386,7 @@
         },
         {
           "t": "2025-05-13",
-          "o": 487.18,
+          "o": 487.17,
           "h": 492.71,
           "l": 484.18,
           "c": 489.68
@@ -142219,7 +142415,7 @@
         {
           "t": "2025-05-19",
           "o": 516.63,
-          "h": 522.98,
+          "h": 522.97,
           "l": 512.25,
           "c": 520.38
         },
@@ -143457,7 +143653,7 @@
         },
         {
           "t": "2026-02-02",
-          "o": 523.1,
+          "o": 523.11,
           "h": 530.5,
           "l": 518.28,
           "c": 528.07
@@ -144735,10 +144931,17 @@
           "h": 644.75,
           "l": 626.78,
           "c": 643.62
+        },
+        {
+          "t": "2026-10-23",
+          "o": 641.74,
+          "h": 645.93,
+          "l": 633.05,
+          "c": 644.11
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.17% on the session. Trading mid-range (72% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 0.25% on the session. Trading mid-range (72% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "GE",
@@ -144746,16 +144949,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 293.54,
-      "day_change_pct": 0.18,
+      "price": 285.56,
+      "day_change_pct": -2.54,
       "52w_high": 388.25,
       "52w_low": 268.17,
-      "52w_range_position_pct": 21.1,
+      "52w_range_position_pct": 14.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 350.76
-        },
         {
           "t": "2026-06-17",
           "c": 356.04
@@ -145111,6 +145310,10 @@
         {
           "t": "2026-10-22",
           "c": 293.54
+        },
+        {
+          "t": "2026-10-23",
+          "c": 285.56
         }
       ],
       "ohlc": [
@@ -146078,7 +146281,7 @@
           "o": 159.64,
           "h": 161.51,
           "l": 150.98,
-          "c": 153.61
+          "c": 153.6
         },
         {
           "t": "2024-06-21",
@@ -146201,9 +146404,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 190.89,
-          "h": 191.22,
-          "l": 188.95,
+          "o": 189.78,
+          "h": 192.57,
+          "l": 187.58,
           "c": 190.4
         },
         {
@@ -149726,10 +149929,17 @@
           "h": 294.4,
           "l": 285.51,
           "c": 293.54
+        },
+        {
+          "t": "2026-10-23",
+          "o": 284.95,
+          "h": 287.98,
+          "l": 278.37,
+          "c": 285.56
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.18% on the session. Trading mid-range (21% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.54% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "BA",
@@ -149737,16 +149947,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 187.55,
-      "day_change_pct": 0.0,
+      "price": 188.38,
+      "day_change_pct": 0.45,
       "52w_high": 254.35,
       "52w_low": 176.77,
-      "52w_range_position_pct": 13.9,
+      "52w_range_position_pct": 15.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 227.49
-        },
         {
           "t": "2026-06-17",
           "c": 225.63
@@ -150102,6 +150308,10 @@
         {
           "t": "2026-10-22",
           "c": 187.55
+        },
+        {
+          "t": "2026-10-23",
+          "c": 188.38
         }
       ],
       "ohlc": [
@@ -151192,9 +151402,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 155.84,
-          "h": 156.37,
-          "l": 153.9,
+          "o": 148.0,
+          "h": 157.14,
+          "l": 146.02,
           "c": 155.0
         },
         {
@@ -154717,10 +154927,17 @@
           "h": 193.19,
           "l": 186.76,
           "c": 187.55
+        },
+        {
+          "t": "2026-10-23",
+          "o": 185.81,
+          "h": 189.07,
+          "l": 182.4,
+          "c": 188.38
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.00% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Up 0.45% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "HON",
@@ -154728,16 +154945,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 218.31,
-      "day_change_pct": -0.0,
+      "price": 221.21,
+      "day_change_pct": 1.33,
       "52w_high": 258.09,
       "52w_low": 193.26,
-      "52w_range_position_pct": 38.6,
+      "52w_range_position_pct": 43.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 239.96
-        },
         {
           "t": "2026-06-17",
           "c": 239.04
@@ -155093,6 +155306,10 @@
         {
           "t": "2026-10-22",
           "c": 218.31
+        },
+        {
+          "t": "2026-10-23",
+          "c": 221.21
         }
       ],
       "ohlc": [
@@ -155290,7 +155507,7 @@
           "o": 175.18,
           "h": 185.91,
           "l": 172.87,
-          "c": 176.02
+          "c": 176.03
         },
         {
           "t": "2022-05-13",
@@ -156183,9 +156400,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 206.78,
+          "o": 205.38,
           "h": 210.92,
-          "l": 206.78,
+          "l": 204.45,
           "c": 210.87
         },
         {
@@ -156290,7 +156507,7 @@
           "t": "2024-11-08",
           "o": 206.53,
           "h": 208.67,
-          "l": 205.64,
+          "l": 205.63,
           "c": 208.47
         },
         {
@@ -157082,7 +157299,7 @@
           "o": 191.14,
           "h": 192.47,
           "l": 189.79,
-          "c": 191.1
+          "c": 191.11
         },
         {
           "t": "2025-04-28",
@@ -159708,10 +159925,17 @@
           "h": 218.55,
           "l": 205.2,
           "c": 218.31
+        },
+        {
+          "t": "2026-10-23",
+          "o": 215.87,
+          "h": 223.43,
+          "l": 212.57,
+          "c": 221.21
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.00% on the session. Trading mid-range (39% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 1.33% on the session. Trading mid-range (43% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "UPS",
@@ -159719,16 +159943,12 @@
       "category": "industrial",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 101.52,
-      "day_change_pct": -0.02,
+      "price": 101.02,
+      "day_change_pct": -0.51,
       "52w_high": 116.86,
       "52w_low": 80.98,
-      "52w_range_position_pct": 57.2,
+      "52w_range_position_pct": 55.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 108.29
-        },
         {
           "t": "2026-06-17",
           "c": 103.48
@@ -160084,6 +160304,10 @@
         {
           "t": "2026-10-22",
           "c": 101.52
+        },
+        {
+          "t": "2026-10-23",
+          "c": 101.02
         }
       ],
       "ohlc": [
@@ -160273,7 +160497,7 @@
           "t": "2022-04-29",
           "o": 149.13,
           "h": 152.5,
-          "l": 143.48,
+          "l": 143.49,
           "c": 143.82
         },
         {
@@ -161051,7 +161275,7 @@
           "o": 119.17,
           "h": 120.74,
           "l": 115.8,
-          "c": 118.2
+          "c": 118.19
         },
         {
           "t": "2024-06-21",
@@ -161174,9 +161398,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 120.13,
+          "o": 118.24,
           "h": 120.41,
-          "l": 119.29,
+          "l": 117.59,
           "c": 119.95
         },
         {
@@ -164699,10 +164923,17 @@
           "h": 101.97,
           "l": 98.97,
           "c": 101.52
+        },
+        {
+          "t": "2026-10-23",
+          "o": 100.9,
+          "h": 101.58,
+          "l": 99.08,
+          "c": 101.02
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.02% on the session. Trading mid-range (57% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.51% on the session. Trading mid-range (56% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "WMT",
@@ -164710,16 +164941,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 121.12,
-      "day_change_pct": -0.41,
+      "price": 120.0,
+      "day_change_pct": -1.33,
       "52w_high": 134.84,
       "52w_low": 98.05,
-      "52w_range_position_pct": 62.7,
+      "52w_range_position_pct": 59.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 120.74
-        },
         {
           "t": "2026-06-17",
           "c": 117.85
@@ -165075,6 +165302,10 @@
         {
           "t": "2026-10-22",
           "c": 121.12
+        },
+        {
+          "t": "2026-10-23",
+          "c": 120.01
         }
       ],
       "ohlc": [
@@ -166165,9 +166396,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 79.42,
-          "h": 80.23,
-          "l": 79.21,
+          "o": 78.62,
+          "h": 80.35,
+          "l": 78.33,
           "c": 79.85
         },
         {
@@ -169690,10 +169921,17 @@
           "h": 121.18,
           "l": 117.83,
           "c": 121.12
+        },
+        {
+          "t": "2026-10-23",
+          "o": 121.56,
+          "h": 122.4,
+          "l": 119.12,
+          "c": 120.01
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.41% on the session. Trading mid-range (63% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.33% on the session. Trading mid-range (60% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "COST",
@@ -169701,16 +169939,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 1018.21,
-      "day_change_pct": 0.35,
+      "price": 1003.76,
+      "day_change_pct": -1.07,
       "52w_high": 1094.76,
       "52w_low": 840.35,
-      "52w_range_position_pct": 69.9,
+      "52w_range_position_pct": 64.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 985.11
-        },
         {
           "t": "2026-06-17",
           "c": 964.06
@@ -170066,6 +170300,10 @@
         {
           "t": "2026-10-22",
           "c": 1018.21
+        },
+        {
+          "t": "2026-10-23",
+          "c": 1003.89
         }
       ],
       "ohlc": [
@@ -170297,7 +170535,7 @@
           "t": "2022-06-10",
           "o": 457.53,
           "h": 461.09,
-          "l": 435.87,
+          "l": 435.88,
           "c": 441.16
         },
         {
@@ -170380,7 +170618,7 @@
         {
           "t": "2022-09-02",
           "o": 502.7,
-          "h": 511.27,
+          "h": 511.26,
           "l": 492.23,
           "c": 495.15
         },
@@ -171156,9 +171394,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 876.13,
-          "h": 880.92,
-          "l": 874.14,
+          "o": 882.74,
+          "h": 890.85,
+          "l": 869.93,
           "c": 879.88
         },
         {
@@ -171472,7 +171710,7 @@
         {
           "t": "2024-12-23",
           "o": 944.76,
-          "h": 945.14,
+          "h": 945.13,
           "l": 928.04,
           "c": 940.83
         },
@@ -171584,7 +171822,7 @@
         {
           "t": "2025-01-17",
           "o": 921.11,
-          "h": 934.77,
+          "h": 934.78,
           "l": 915.73,
           "c": 934.17
         },
@@ -172013,7 +172251,7 @@
           "o": 963.9,
           "h": 970.36,
           "l": 951.12,
-          "c": 959.55
+          "c": 959.56
         },
         {
           "t": "2025-04-17",
@@ -174681,10 +174919,17 @@
           "h": 1018.86,
           "l": 1001.23,
           "c": 1018.21
+        },
+        {
+          "t": "2026-10-23",
+          "o": 1016.0,
+          "h": 1021.45,
+          "l": 1002.68,
+          "c": 1003.89
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.35% on the session. Trading mid-range (70% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.07% on the session. Trading mid-range (64% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "MCD",
@@ -174692,16 +174937,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 252.63,
-      "day_change_pct": 0.05,
+      "price": 248.45,
+      "day_change_pct": -1.6,
       "52w_high": 335.18,
       "52w_low": 229.2,
-      "52w_range_position_pct": 22.1,
+      "52w_range_position_pct": 18.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 285.9
-        },
         {
           "t": "2026-06-17",
           "c": 281.82
@@ -175057,6 +175298,10 @@
         {
           "t": "2026-10-22",
           "c": 252.63
+        },
+        {
+          "t": "2026-10-23",
+          "c": 248.45
         }
       ],
       "ohlc": [
@@ -176147,9 +176392,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 300.64,
+          "o": 290.71,
           "h": 302.17,
-          "l": 299.36,
+          "l": 290.09,
           "c": 301.58
         },
         {
@@ -179672,10 +179917,17 @@
           "h": 252.88,
           "l": 246.47,
           "c": 252.63
+        },
+        {
+          "t": "2026-10-23",
+          "o": 250.53,
+          "h": 251.75,
+          "l": 246.67,
+          "c": 248.45
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.05% on the session. Trading mid-range (22% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.60% on the session. Trading mid-range (18% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "NKE",
@@ -179683,16 +179935,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 38.32,
-      "day_change_pct": 0.61,
+      "price": 37.31,
+      "day_change_pct": -2.03,
       "52w_high": 68.19,
       "52w_low": 31.97,
-      "52w_range_position_pct": 17.5,
+      "52w_range_position_pct": 14.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 44.57
-        },
         {
           "t": "2026-06-17",
           "c": 43.73
@@ -180048,6 +180296,10 @@
         {
           "t": "2026-10-22",
           "c": 38.32
+        },
+        {
+          "t": "2026-10-23",
+          "c": 37.31
         }
       ],
       "ohlc": [
@@ -180070,7 +180322,7 @@
           "o": 160.91,
           "h": 161.08,
           "l": 152.04,
-          "c": 154.29
+          "c": 154.28
         },
         {
           "t": "2021-11-19",
@@ -181000,7 +181252,7 @@
           "t": "2024-05-31",
           "o": 86.16,
           "h": 89.29,
-          "l": 85.8,
+          "l": 85.79,
           "c": 89.27
         },
         {
@@ -181138,9 +181390,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 79.35,
-          "h": 79.51,
-          "l": 78.26,
+          "o": 77.66,
+          "h": 80.27,
+          "l": 76.52,
           "c": 78.53
         },
         {
@@ -184663,10 +184915,17 @@
           "h": 38.44,
           "l": 36.91,
           "c": 38.32
+        },
+        {
+          "t": "2026-10-23",
+          "o": 37.81,
+          "h": 38.26,
+          "l": 37.31,
+          "c": 37.31
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.61% on the session. Trading mid-range (18% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.03% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "SBUX",
@@ -184674,16 +184933,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 101.91,
-      "day_change_pct": -0.09,
+      "price": 100.8,
+      "day_change_pct": -1.18,
       "52w_high": 109.88,
       "52w_low": 76.05,
-      "52w_range_position_pct": 76.4,
+      "52w_range_position_pct": 73.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 101.1
-        },
         {
           "t": "2026-06-17",
           "c": 99.25
@@ -185039,6 +185294,10 @@
         {
           "t": "2026-10-22",
           "c": 101.91
+        },
+        {
+          "t": "2026-10-23",
+          "c": 100.8
         }
       ],
       "ohlc": [
@@ -186129,9 +186388,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 90.98,
+          "o": 90.72,
           "h": 92.09,
-          "l": 90.37,
+          "l": 89.47,
           "c": 92.08
         },
         {
@@ -189654,10 +189913,17 @@
           "h": 102.03,
           "l": 98.63,
           "c": 101.91
+        },
+        {
+          "t": "2026-10-23",
+          "o": 101.14,
+          "h": 102.2,
+          "l": 100.43,
+          "c": 100.8
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.09% on the session. Trading mid-range (76% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.18% on the session. Trading mid-range (73% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "HD",
@@ -189665,16 +189931,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 327.73,
-      "day_change_pct": 0.13,
+      "price": 319.89,
+      "day_change_pct": -2.26,
       "52w_high": 389.18,
       "52w_low": 277.15,
-      "52w_range_position_pct": 45.1,
+      "52w_range_position_pct": 38.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 334.62
-        },
         {
           "t": "2026-06-17",
           "c": 325.08
@@ -190030,6 +190292,10 @@
         {
           "t": "2026-10-22",
           "c": 327.73
+        },
+        {
+          "t": "2026-10-23",
+          "c": 319.89
         }
       ],
       "ohlc": [
@@ -190647,7 +190913,7 @@
           "o": 278.46,
           "h": 290.23,
           "l": 277.83,
-          "c": 285.79
+          "c": 285.8
         },
         {
           "t": "2023-07-07",
@@ -190793,7 +191059,7 @@
           "t": "2023-11-24",
           "o": 284.43,
           "h": 288.31,
-          "l": 279.94,
+          "l": 279.93,
           "c": 287.68
         },
         {
@@ -191120,9 +191386,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 395.79,
-          "h": 395.8,
-          "l": 392.55,
+          "o": 390.88,
+          "h": 400.46,
+          "l": 390.71,
           "c": 394.23
         },
         {
@@ -192660,7 +192926,7 @@
         },
         {
           "t": "2025-09-08",
-          "o": 406.98,
+          "o": 406.97,
           "h": 409.0,
           "l": 404.3,
           "c": 408.38
@@ -192807,7 +193073,7 @@
         },
         {
           "t": "2025-10-07",
-          "o": 378.73,
+          "o": 378.72,
           "h": 379.02,
           "l": 374.89,
           "c": 376.16
@@ -193068,7 +193334,7 @@
           "t": "2025-11-28",
           "o": 345.16,
           "h": 347.98,
-          "l": 343.76,
+          "l": 343.77,
           "c": 347.09
         },
         {
@@ -194645,10 +194911,17 @@
           "h": 327.92,
           "l": 313.56,
           "c": 327.73
+        },
+        {
+          "t": "2026-10-23",
+          "o": 324.99,
+          "h": 325.91,
+          "l": 317.55,
+          "c": 319.89
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.13% on the session. Trading mid-range (45% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.26% on the session. Trading mid-range (38% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "TGT",
@@ -194656,16 +194929,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 158.11,
-      "day_change_pct": 0.13,
+      "price": 152.76,
+      "day_change_pct": -3.25,
       "52w_high": 170.75,
       "52w_low": 81.2,
-      "52w_range_position_pct": 85.9,
+      "52w_range_position_pct": 79.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 132.38
-        },
         {
           "t": "2026-06-17",
           "c": 126.84
@@ -195021,6 +195290,10 @@
         {
           "t": "2026-10-22",
           "c": 158.11
+        },
+        {
+          "t": "2026-10-23",
+          "c": 152.76
         }
       ],
       "ohlc": [
@@ -195670,7 +195943,7 @@
         },
         {
           "t": "2023-08-04",
-          "o": 120.16,
+          "o": 120.15,
           "h": 121.6,
           "l": 117.1,
           "c": 117.73
@@ -195679,7 +195952,7 @@
           "t": "2023-08-11",
           "o": 118.17,
           "h": 118.77,
-          "l": 114.9,
+          "l": 114.91,
           "c": 116.42
         },
         {
@@ -196111,8 +196384,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 144.81,
-          "h": 145.35,
+          "o": 146.4,
+          "h": 149.45,
           "l": 143.17,
           "c": 145.14
         },
@@ -199636,10 +199909,17 @@
           "h": 158.31,
           "l": 151.42,
           "c": 158.11
+        },
+        {
+          "t": "2026-10-23",
+          "o": 156.92,
+          "h": 158.35,
+          "l": 152.02,
+          "c": 152.76
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.13% on the session. Trading mid-range (86% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 3.25% on the session. Trading mid-range (80% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "DIS",
@@ -199647,16 +199927,12 @@
       "category": "consumer",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 113.13,
-      "day_change_pct": 0.22,
+      "price": 112.51,
+      "day_change_pct": -0.32,
       "52w_high": 115.42,
       "52w_low": 91.49,
-      "52w_range_position_pct": 90.4,
+      "52w_range_position_pct": 87.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 100.51
-        },
         {
           "t": "2026-06-17",
           "c": 100.09
@@ -200012,6 +200288,10 @@
         {
           "t": "2026-10-22",
           "c": 113.13
+        },
+        {
+          "t": "2026-10-23",
+          "c": 112.51
         }
       ],
       "ohlc": [
@@ -201102,9 +201382,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 94.8,
+          "o": 92.03,
           "h": 95.32,
-          "l": 93.86,
+          "l": 91.5,
           "c": 95.06
         },
         {
@@ -204627,10 +204907,17 @@
           "h": 113.38,
           "l": 111.52,
           "c": 113.13
+        },
+        {
+          "t": "2026-10-23",
+          "o": 112.24,
+          "h": 112.99,
+          "l": 111.65,
+          "c": 112.51
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.22% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 0.32% on the session. Trading mid-range (88% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "JPM",
@@ -204638,16 +204925,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 336.54,
-      "day_change_pct": -0.04,
+      "price": 331.61,
+      "day_change_pct": -1.51,
       "52w_high": 364.68,
       "52w_low": 275.06,
-      "52w_range_position_pct": 68.6,
+      "52w_range_position_pct": 63.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 328.02
-        },
         {
           "t": "2026-06-17",
           "c": 330.32
@@ -205003,6 +205286,10 @@
         {
           "t": "2026-10-22",
           "c": 336.54
+        },
+        {
+          "t": "2026-10-23",
+          "c": 331.6
         }
       ],
       "ohlc": [
@@ -205310,7 +205597,7 @@
         {
           "t": "2022-08-26",
           "o": 105.44,
-          "h": 108.36,
+          "h": 108.37,
           "l": 103.36,
           "c": 103.56
         },
@@ -206093,9 +206380,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 216.17,
+          "o": 214.44,
           "h": 217.06,
-          "l": 214.35,
+          "l": 210.29,
           "c": 216.53
         },
         {
@@ -206334,7 +206621,7 @@
           "o": 236.06,
           "h": 238.02,
           "l": 235.23,
-          "c": 237.66
+          "c": 237.65
         },
         {
           "t": "2024-12-09",
@@ -207388,7 +207675,7 @@
         },
         {
           "t": "2025-07-18",
-          "o": 282.68,
+          "o": 282.67,
           "h": 285.58,
           "l": 281.42,
           "c": 284.38
@@ -207717,7 +208004,7 @@
         },
         {
           "t": "2025-09-24",
-          "o": 306.63,
+          "o": 306.62,
           "h": 309.1,
           "l": 304.3,
           "c": 306.01
@@ -209618,10 +209905,17 @@
           "h": 336.62,
           "l": 332.26,
           "c": 336.54
+        },
+        {
+          "t": "2026-10-23",
+          "o": 333.0,
+          "h": 335.14,
+          "l": 330.4,
+          "c": 331.6
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.04% on the session. Trading mid-range (69% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.51% on the session. Trading mid-range (63% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "GS",
@@ -209629,16 +209923,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 891.3,
-      "day_change_pct": 0.09,
+      "price": 875.82,
+      "day_change_pct": -1.65,
       "52w_high": 1148.37,
-      "52w_low": 728.78,
-      "52w_range_position_pct": 38.7,
+      "52w_low": 730.3,
+      "52w_range_position_pct": 34.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 1085.35
-        },
         {
           "t": "2026-06-17",
           "c": 1093.78
@@ -209994,6 +210284,10 @@
         {
           "t": "2026-10-22",
           "c": 891.3
+        },
+        {
+          "t": "2026-10-23",
+          "c": 875.82
         }
       ],
       "ohlc": [
@@ -210462,7 +210756,7 @@
         {
           "t": "2023-02-03",
           "o": 322.92,
-          "h": 342.37,
+          "h": 342.38,
           "l": 322.11,
           "c": 338.15
         },
@@ -210575,7 +210869,7 @@
           "t": "2023-05-26",
           "o": 300.25,
           "h": 306.44,
-          "l": 293.49,
+          "l": 293.48,
           "c": 305.65
         },
         {
@@ -211084,9 +211378,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 508.8,
-          "h": 510.12,
-          "l": 506.37,
+          "o": 497.51,
+          "h": 519.48,
+          "l": 495.46,
           "c": 507.94
         },
         {
@@ -211422,7 +211716,7 @@
           "t": "2024-12-27",
           "o": 557.3,
           "h": 562.09,
-          "l": 551.84,
+          "l": 551.85,
           "c": 556.51
         },
         {
@@ -211729,7 +212023,7 @@
         {
           "t": "2025-03-05",
           "o": 565.01,
-          "h": 579.59,
+          "h": 579.6,
           "l": 559.85,
           "c": 575.66
         },
@@ -212078,9 +212372,9 @@
         },
         {
           "t": "2025-05-15",
-          "o": 591.84,
+          "o": 591.83,
           "h": 601.04,
-          "l": 591.84,
+          "l": 591.83,
           "c": 597.82
         },
         {
@@ -214609,10 +214903,17 @@
           "h": 906.35,
           "l": 881.0,
           "c": 891.3
+        },
+        {
+          "t": "2026-10-23",
+          "o": 880.07,
+          "h": 886.75,
+          "l": 871.0,
+          "c": 875.82
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.09% on the session. Trading mid-range (39% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.65% on the session. Trading mid-range (35% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "BAC",
@@ -214620,16 +214921,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 51.08,
-      "day_change_pct": -0.03,
+      "price": 50.58,
+      "day_change_pct": -1.0,
       "52w_high": 64.9,
       "52w_low": 45.65,
-      "52w_range_position_pct": 28.2,
+      "52w_range_position_pct": 25.6,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 56.55
-        },
         {
           "t": "2026-06-17",
           "c": 56.24
@@ -214985,6 +215282,10 @@
         {
           "t": "2026-10-22",
           "c": 51.08
+        },
+        {
+          "t": "2026-10-23",
+          "c": 50.58
         }
       ],
       "ohlc": [
@@ -216075,9 +216376,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 40.59,
-          "h": 40.8,
-          "l": 40.28,
+          "o": 40.14,
+          "h": 41.48,
+          "l": 39.91,
           "c": 40.48
         },
         {
@@ -219600,10 +219901,17 @@
           "h": 51.21,
           "l": 50.2,
           "c": 51.08
+        },
+        {
+          "t": "2026-10-23",
+          "o": 50.73,
+          "h": 50.92,
+          "l": 50.31,
+          "c": 50.58
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.03% on the session. Trading mid-range (28% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.00% on the session. Trading mid-range (26% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "V",
@@ -219611,16 +219919,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 414.34,
-      "day_change_pct": 0.04,
+      "price": 408.36,
+      "day_change_pct": -1.4,
       "52w_high": 414.6,
       "52w_low": 292.74,
-      "52w_range_position_pct": 99.8,
+      "52w_range_position_pct": 94.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 332.5
-        },
         {
           "t": "2026-06-17",
           "c": 329.77
@@ -219976,6 +220280,10 @@
         {
           "t": "2026-10-22",
           "c": 414.34
+        },
+        {
+          "t": "2026-10-23",
+          "c": 408.36
         }
       ],
       "ohlc": [
@@ -220275,9 +220583,9 @@
         },
         {
           "t": "2022-08-19",
-          "o": 203.98,
+          "o": 203.99,
           "h": 211.01,
-          "l": 203.98,
+          "l": 203.99,
           "c": 206.36
         },
         {
@@ -220782,7 +221090,7 @@
           "o": 254.3,
           "h": 256.11,
           "l": 251.6,
-          "c": 254.38
+          "c": 254.37
         },
         {
           "t": "2024-01-12",
@@ -221066,9 +221374,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 285.61,
+          "o": 274.93,
           "h": 286.72,
-          "l": 283.8,
+          "l": 273.86,
           "c": 286.3
         },
         {
@@ -224591,10 +224899,17 @@
           "h": 414.6,
           "l": 407.28,
           "c": 414.34
+        },
+        {
+          "t": "2026-10-23",
+          "o": 410.59,
+          "h": 412.58,
+          "l": 406.8,
+          "c": 408.36
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.04% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 1.40% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "MA",
@@ -224602,16 +224917,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 633.21,
-      "day_change_pct": -0.18,
+      "price": 622.57,
+      "day_change_pct": -1.86,
       "52w_high": 633.29,
       "52w_low": 463.04,
-      "52w_range_position_pct": 100.0,
+      "52w_range_position_pct": 93.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 499.73
-        },
         {
           "t": "2026-06-17",
           "c": 491.42
@@ -224967,6 +225278,10 @@
         {
           "t": "2026-10-22",
           "c": 633.21
+        },
+        {
+          "t": "2026-10-23",
+          "c": 622.57
         }
       ],
       "ohlc": [
@@ -225266,7 +225581,7 @@
         },
         {
           "t": "2022-08-19",
-          "o": 343.43,
+          "o": 343.42,
           "h": 352.8,
           "l": 341.95,
           "c": 345.33
@@ -226057,9 +226372,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 508.33,
+          "o": 498.28,
           "h": 511.75,
-          "l": 506.4,
+          "l": 495.99,
           "c": 510.11
         },
         {
@@ -226423,7 +226738,7 @@
           "t": "2025-01-03",
           "o": 516.23,
           "h": 518.13,
-          "l": 511.44,
+          "l": 511.43,
           "c": 515.07
         },
         {
@@ -226739,7 +227054,7 @@
           "o": 524.88,
           "h": 527.06,
           "l": 513.75,
-          "c": 519.07
+          "c": 519.08
         },
         {
           "t": "2025-03-13",
@@ -227467,7 +227782,7 @@
           "o": 570.57,
           "h": 572.15,
           "l": 565.06,
-          "c": 569.17
+          "c": 569.18
         },
         {
           "t": "2025-08-12",
@@ -229582,10 +229897,17 @@
           "h": 633.29,
           "l": 623.88,
           "c": 633.21
+        },
+        {
+          "t": "2026-10-23",
+          "o": 628.76,
+          "h": 631.12,
+          "l": 619.62,
+          "c": 622.57
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.18% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 1.86% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "WFC",
@@ -229593,16 +229915,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 83.01,
-      "day_change_pct": -0.28,
+      "price": 82.33,
+      "day_change_pct": -1.1,
       "52w_high": 96.18,
       "52w_low": 72.36,
-      "52w_range_position_pct": 44.7,
+      "52w_range_position_pct": 41.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 84.56
-        },
         {
           "t": "2026-06-17",
           "c": 83.33
@@ -229958,6 +230276,10 @@
         {
           "t": "2026-10-22",
           "c": 83.01
+        },
+        {
+          "t": "2026-10-23",
+          "c": 82.33
         }
       ],
       "ohlc": [
@@ -230649,7 +230971,7 @@
         },
         {
           "t": "2023-09-15",
-          "o": 38.47,
+          "o": 38.48,
           "h": 40.34,
           "l": 38.32,
           "c": 39.93
@@ -231048,9 +231370,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 61.66,
+          "o": 58.66,
           "h": 62.02,
-          "l": 61.11,
+          "l": 58.34,
           "c": 61.62
         },
         {
@@ -231541,7 +231863,7 @@
           "o": 75.77,
           "h": 76.35,
           "l": 75.4,
-          "c": 75.87
+          "c": 75.88
         },
         {
           "t": "2025-02-03",
@@ -234573,10 +234895,17 @@
           "h": 83.38,
           "l": 81.02,
           "c": 83.01
+        },
+        {
+          "t": "2026-10-23",
+          "o": 82.06,
+          "h": 82.76,
+          "l": 81.56,
+          "c": 82.33
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.28% on the session. Trading mid-range (45% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.10% on the session. Trading mid-range (42% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "MS",
@@ -234584,16 +234913,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 183.97,
-      "day_change_pct": -0.29,
+      "price": 179.44,
+      "day_change_pct": -2.74,
       "52w_high": 230.98,
       "52w_low": 151.15,
-      "52w_range_position_pct": 41.1,
+      "52w_range_position_pct": 35.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 219.62
-        },
         {
           "t": "2026-06-17",
           "c": 223.73
@@ -234949,6 +235274,10 @@
         {
           "t": "2026-10-22",
           "c": 183.97
+        },
+        {
+          "t": "2026-10-23",
+          "c": 179.44
         }
       ],
       "ohlc": [
@@ -236039,9 +236368,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 113.49,
-          "h": 115.0,
-          "l": 113.09,
+          "o": 105.44,
+          "h": 115.31,
+          "l": 104.97,
           "c": 114.94
         },
         {
@@ -237152,7 +237481,7 @@
         },
         {
           "t": "2025-06-10",
-          "o": 127.79,
+          "o": 127.8,
           "h": 128.63,
           "l": 127.36,
           "c": 128.01
@@ -239564,10 +239893,17 @@
           "h": 187.0,
           "l": 182.22,
           "c": 183.97
+        },
+        {
+          "t": "2026-10-23",
+          "o": 181.92,
+          "h": 182.51,
+          "l": 179.4,
+          "c": 179.44
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.29% on the session. Trading mid-range (41% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.74% on the session. Trading mid-range (35% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "BRK-B",
@@ -239575,16 +239911,12 @@
       "category": "finance",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 546.97,
-      "day_change_pct": -0.22,
+      "price": 542.36,
+      "day_change_pct": -1.07,
       "52w_high": 549.96,
       "52w_low": 464.01,
-      "52w_range_position_pct": 96.5,
+      "52w_range_position_pct": 91.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 494.95
-        },
         {
           "t": "2026-06-17",
           "c": 491.28
@@ -239940,6 +240272,10 @@
         {
           "t": "2026-10-22",
           "c": 546.97
+        },
+        {
+          "t": "2026-10-23",
+          "c": 542.36
         }
       ],
       "ohlc": [
@@ -241030,9 +241366,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 467.0,
-          "h": 467.0,
-          "l": 463.25,
+          "o": 461.92,
+          "h": 467.84,
+          "l": 458.1,
           "c": 464.8
         },
         {
@@ -244555,10 +244891,17 @@
           "h": 549.96,
           "l": 542.01,
           "c": 546.97
+        },
+        {
+          "t": "2026-10-23",
+          "o": 545.37,
+          "h": 548.31,
+          "l": 540.97,
+          "c": 542.36
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.22% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 1.07% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "XOM",
@@ -244566,16 +244909,12 @@
       "category": "energy",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 178.23,
-      "day_change_pct": -0.25,
-      "52w_high": 180.31,
+      "price": 183.23,
+      "day_change_pct": 2.54,
+      "52w_high": 183.75,
       "52w_low": 109.34,
-      "52w_range_position_pct": 97.1,
+      "52w_range_position_pct": 99.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 140.95
-        },
         {
           "t": "2026-06-17",
           "c": 139.83
@@ -244931,6 +245270,10 @@
         {
           "t": "2026-10-22",
           "c": 178.23
+        },
+        {
+          "t": "2026-10-23",
+          "c": 183.23
         }
       ],
       "ohlc": [
@@ -246021,8 +246364,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 112.96,
-          "h": 113.15,
+          "o": 115.59,
+          "h": 116.55,
           "l": 111.75,
           "c": 112.56
         },
@@ -248599,7 +248942,7 @@
           "t": "2026-04-10",
           "o": 152.02,
           "h": 153.08,
-          "l": 149.93,
+          "l": 149.92,
           "c": 150.51
         },
         {
@@ -249546,10 +249889,17 @@
           "h": 180.31,
           "l": 174.63,
           "c": 178.23
+        },
+        {
+          "t": "2026-10-23",
+          "o": 179.37,
+          "h": 183.75,
+          "l": 179.0,
+          "c": 183.23
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.25% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Up 2.54% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "CVX",
@@ -249557,16 +249907,12 @@
       "category": "energy",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 226.68,
-      "day_change_pct": -0.18,
-      "52w_high": 229.04,
+      "price": 233.43,
+      "day_change_pct": 2.79,
+      "52w_high": 233.74,
       "52w_low": 142.51,
-      "52w_range_position_pct": 97.3,
+      "52w_range_position_pct": 99.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 178.55
-        },
         {
           "t": "2026-06-17",
           "c": 176.04
@@ -249922,6 +250268,10 @@
         {
           "t": "2026-10-22",
           "c": 226.68
+        },
+        {
+          "t": "2026-10-23",
+          "c": 233.4
         }
       ],
       "ohlc": [
@@ -250662,7 +251012,7 @@
         },
         {
           "t": "2023-11-03",
-          "o": 128.49,
+          "o": 128.48,
           "h": 131.43,
           "l": 126.86,
           "c": 130.21
@@ -250713,7 +251063,7 @@
           "t": "2023-12-22",
           "o": 134.44,
           "h": 136.43,
-          "l": 133.01,
+          "l": 133.0,
           "c": 134.64
         },
         {
@@ -251012,9 +251362,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 138.81,
-          "h": 139.05,
-          "l": 137.48,
+          "o": 138.53,
+          "h": 139.8,
+          "l": 135.81,
           "c": 138.74
         },
         {
@@ -251873,7 +252223,7 @@
         },
         {
           "t": "2025-04-17",
-          "o": 128.49,
+          "o": 128.5,
           "h": 131.83,
           "l": 128.27,
           "c": 129.6
@@ -254537,10 +254887,17 @@
           "h": 229.04,
           "l": 222.86,
           "c": 226.68
+        },
+        {
+          "t": "2026-10-23",
+          "o": 228.19,
+          "h": 233.74,
+          "l": 228.02,
+          "c": 233.4
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.18% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Up 2.79% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "OXY",
@@ -254548,16 +254905,12 @@
       "category": "energy",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 62.5,
-      "day_change_pct": -0.49,
+      "price": 64.17,
+      "day_change_pct": 2.17,
       "52w_high": 66.83,
       "52w_low": 38.26,
-      "52w_range_position_pct": 84.8,
+      "52w_range_position_pct": 90.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 53.42
-        },
         {
           "t": "2026-06-17",
           "c": 52.8
@@ -254913,6 +255266,10 @@
         {
           "t": "2026-10-22",
           "c": 62.5
+        },
+        {
+          "t": "2026-10-23",
+          "c": 64.17
         }
       ],
       "ohlc": [
@@ -256003,8 +256360,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 49.67,
-          "h": 49.79,
+          "o": 52.13,
+          "h": 52.25,
           "l": 49.08,
           "c": 49.62
         },
@@ -259528,10 +259885,17 @@
           "h": 63.56,
           "l": 61.28,
           "c": 62.5
+        },
+        {
+          "t": "2026-10-23",
+          "o": 63.05,
+          "h": 64.96,
+          "l": 62.7,
+          "c": 64.17
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.49% on the session. Trading mid-range (85% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 2.17% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "COP",
@@ -259539,16 +259903,12 @@
       "category": "energy",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 145.63,
-      "day_change_pct": -0.25,
-      "52w_high": 147.55,
+      "price": 150.85,
+      "day_change_pct": 3.33,
+      "52w_high": 152.77,
       "52w_low": 82.95,
-      "52w_range_position_pct": 97.0,
+      "52w_range_position_pct": 97.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 110.6
-        },
         {
           "t": "2026-06-17",
           "c": 110.47
@@ -259904,6 +260264,10 @@
         {
           "t": "2026-10-22",
           "c": 145.63
+        },
+        {
+          "t": "2026-10-23",
+          "c": 150.85
         }
       ],
       "ohlc": [
@@ -260994,8 +261358,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 99.48,
-          "h": 99.68,
+          "o": 103.03,
+          "h": 103.71,
           "l": 98.33,
           "c": 99.24
         },
@@ -264519,10 +264883,17 @@
           "h": 147.55,
           "l": 143.31,
           "c": 145.63
+        },
+        {
+          "t": "2026-10-23",
+          "o": 147.11,
+          "h": 152.77,
+          "l": 146.11,
+          "c": 150.85
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.25% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Up 3.33% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "SLB",
@@ -264530,16 +264901,12 @@
       "category": "energy",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 49.55,
-      "day_change_pct": -0.46,
+      "price": 53.0,
+      "day_change_pct": 6.47,
       "52w_high": 60.15,
-      "52w_low": 33.19,
-      "52w_range_position_pct": 60.7,
+      "52w_low": 33.82,
+      "52w_range_position_pct": 72.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 52.8
-        },
         {
           "t": "2026-06-17",
           "c": 50.07
@@ -264895,6 +265262,10 @@
         {
           "t": "2026-10-22",
           "c": 49.55
+        },
+        {
+          "t": "2026-10-23",
+          "c": 53.0
         }
       ],
       "ohlc": [
@@ -265153,7 +265524,7 @@
         {
           "t": "2022-07-08",
           "o": 31.26,
-          "h": 31.89,
+          "h": 31.88,
           "l": 28.63,
           "c": 31.07
         },
@@ -265985,8 +266356,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 41.69,
-          "h": 41.78,
+          "o": 42.07,
+          "h": 42.38,
           "l": 39.7,
           "c": 39.73
         },
@@ -269510,10 +269881,17 @@
           "h": 51.16,
           "l": 48.7,
           "c": 49.55
+        },
+        {
+          "t": "2026-10-23",
+          "o": 49.96,
+          "h": 53.45,
+          "l": 49.48,
+          "c": 53.0
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.46% on the session. Trading mid-range (61% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 6.47% on the session. Trading mid-range (73% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "UNH",
@@ -269521,16 +269899,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 424.98,
-      "day_change_pct": 0.01,
+      "price": 418.22,
+      "day_change_pct": -1.58,
       "52w_high": 458.79,
       "52w_low": 252.96,
-      "52w_range_position_pct": 83.6,
+      "52w_range_position_pct": 80.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 405.16
-        },
         {
           "t": "2026-06-17",
           "c": 397.08
@@ -269886,6 +270260,10 @@
         {
           "t": "2026-10-22",
           "c": 424.98
+        },
+        {
+          "t": "2026-10-23",
+          "c": 418.27
         }
       ],
       "ohlc": [
@@ -270059,7 +270437,7 @@
         },
         {
           "t": "2022-04-15",
-          "o": 499.73,
+          "o": 499.72,
           "h": 508.63,
           "l": 485.95,
           "c": 491.65
@@ -270605,7 +270983,7 @@
         },
         {
           "t": "2023-10-13",
-          "o": 489.4,
+          "o": 489.41,
           "h": 511.3,
           "l": 488.54,
           "c": 506.54
@@ -270976,9 +271354,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 540.43,
-          "h": 544.34,
-          "l": 536.79,
+          "o": 571.18,
+          "h": 580.26,
+          "l": 517.69,
           "c": 543.06
         },
         {
@@ -271455,7 +271833,7 @@
           "o": 518.46,
           "h": 520.13,
           "l": 511.07,
-          "c": 514.99
+          "c": 514.98
         },
         {
           "t": "2025-01-30",
@@ -271818,7 +272196,7 @@
           "t": "2025-04-14",
           "o": 571.87,
           "h": 572.48,
-          "l": 556.78,
+          "l": 556.77,
           "c": 564.24
         },
         {
@@ -272131,7 +272509,7 @@
         },
         {
           "t": "2025-06-18",
-          "o": 297.69,
+          "o": 297.7,
           "h": 301.8,
           "l": 296.42,
           "c": 297.36
@@ -272176,7 +272554,7 @@
           "o": 293.24,
           "h": 300.5,
           "l": 292.52,
-          "c": 299.21
+          "c": 299.2
         },
         {
           "t": "2025-06-30",
@@ -272271,7 +272649,7 @@
         },
         {
           "t": "2025-07-18",
-          "o": 278.67,
+          "o": 278.66,
           "h": 278.84,
           "l": 271.81,
           "c": 273.59
@@ -272868,7 +273246,7 @@
           "t": "2025-11-17",
           "o": 312.28,
           "h": 319.38,
-          "l": 311.15,
+          "l": 311.14,
           "c": 312.21
         },
         {
@@ -274501,10 +274879,17 @@
           "h": 426.55,
           "l": 417.13,
           "c": 424.98
+        },
+        {
+          "t": "2026-10-23",
+          "o": 424.3,
+          "h": 425.25,
+          "l": 416.37,
+          "c": 418.27
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.01% on the session. Trading mid-range (84% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.58% on the session. Trading mid-range (80% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "JNJ",
@@ -274512,16 +274897,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 267.61,
-      "day_change_pct": -0.15,
+      "price": 264.12,
+      "day_change_pct": -1.45,
       "52w_high": 281.07,
       "52w_low": 180.59,
-      "52w_range_position_pct": 86.6,
+      "52w_range_position_pct": 83.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 234.03
-        },
         {
           "t": "2026-06-17",
           "c": 233.05
@@ -274877,6 +275258,10 @@
         {
           "t": "2026-10-22",
           "c": 267.61
+        },
+        {
+          "t": "2026-10-23",
+          "c": 264.12
         }
       ],
       "ohlc": [
@@ -275164,7 +275549,7 @@
           "t": "2022-08-05",
           "o": 154.43,
           "h": 155.6,
-          "l": 150.54,
+          "l": 150.55,
           "c": 151.72
         },
         {
@@ -275218,7 +275603,7 @@
         },
         {
           "t": "2022-09-30",
-          "o": 147.99,
+          "o": 148.0,
           "h": 149.66,
           "l": 145.78,
           "c": 145.82
@@ -275256,7 +275641,7 @@
           "o": 155.78,
           "h": 156.35,
           "l": 150.8,
-          "c": 153.07
+          "c": 153.06
         },
         {
           "t": "2022-11-11",
@@ -275967,9 +276352,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 156.21,
-          "h": 156.59,
-          "l": 155.3,
+          "o": 152.9,
+          "h": 157.97,
+          "l": 150.63,
           "c": 156.42
         },
         {
@@ -277790,7 +278175,7 @@
           "o": 184.83,
           "h": 184.86,
           "l": 181.43,
-          "c": 182.16
+          "c": 182.15
         },
         {
           "t": "2025-11-04",
@@ -279492,10 +279877,17 @@
           "h": 269.67,
           "l": 259.04,
           "c": 267.61
+        },
+        {
+          "t": "2026-10-23",
+          "o": 265.82,
+          "h": 266.02,
+          "l": 262.4,
+          "c": 264.12
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.15% on the session. Trading mid-range (87% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.45% on the session. Trading mid-range (83% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "PFE",
@@ -279503,16 +279895,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 30.42,
-      "day_change_pct": -0.05,
+      "price": 30.03,
+      "day_change_pct": -1.32,
       "52w_high": 30.44,
       "52w_low": 22.57,
-      "52w_range_position_pct": 99.7,
+      "52w_range_position_pct": 94.9,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 25.59
-        },
         {
           "t": "2026-06-17",
           "c": 25.47
@@ -279868,6 +280256,10 @@
         {
           "t": "2026-10-22",
           "c": 30.42
+        },
+        {
+          "t": "2026-10-23",
+          "c": 30.03
         }
       ],
       "ohlc": [
@@ -280958,9 +281350,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 25.58,
-          "h": 25.65,
-          "l": 25.39,
+          "o": 25.46,
+          "h": 26.04,
+          "l": 25.19,
           "c": 25.51
         },
         {
@@ -284483,10 +284875,17 @@
           "h": 30.44,
           "l": 29.88,
           "c": 30.42
+        },
+        {
+          "t": "2026-10-23",
+          "o": 30.28,
+          "h": 30.32,
+          "l": 29.81,
+          "c": 30.03
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.05% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 1.32% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "LLY",
@@ -284494,16 +284893,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 1306.69,
-      "day_change_pct": -0.18,
+      "price": 1275.6,
+      "day_change_pct": -2.55,
       "52w_high": 1321.21,
-      "52w_low": 788.84,
-      "52w_range_position_pct": 97.3,
+      "52w_low": 800.97,
+      "52w_range_position_pct": 91.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 1120.89
-        },
         {
           "t": "2026-06-17",
           "c": 1110.41
@@ -284859,6 +285254,10 @@
         {
           "t": "2026-10-22",
           "c": 1306.69
+        },
+        {
+          "t": "2026-10-23",
+          "c": 1275.6
         }
       ],
       "ohlc": [
@@ -284934,8 +285333,8 @@
         },
         {
           "t": "2022-01-07",
-          "o": 263.09,
-          "h": 263.09,
+          "o": 263.08,
+          "h": 263.08,
           "l": 244.92,
           "c": 248.79
         },
@@ -285809,7 +286208,7 @@
         },
         {
           "t": "2024-05-31",
-          "o": 796.71,
+          "o": 796.72,
           "h": 813.66,
           "l": 776.28,
           "c": 807.88
@@ -285949,9 +286348,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 904.51,
-          "h": 908.2,
-          "l": 893.11,
+          "o": 923.07,
+          "h": 924.06,
+          "l": 885.44,
           "c": 905.29
         },
         {
@@ -286062,7 +286461,7 @@
         {
           "t": "2024-11-11",
           "o": 819.82,
-          "h": 832.34,
+          "h": 832.35,
           "l": 813.24,
           "c": 820.94
         },
@@ -288365,7 +288764,7 @@
         {
           "t": "2026-03-09",
           "o": 983.78,
-          "h": 1005.76,
+          "h": 1005.75,
           "l": 977.49,
           "c": 1005.22
         },
@@ -288436,7 +288835,7 @@
           "t": "2026-03-23",
           "o": 910.62,
           "h": 923.86,
-          "l": 904.37,
+          "l": 904.38,
           "c": 907.68
         },
         {
@@ -289474,10 +289873,17 @@
           "h": 1321.21,
           "l": 1275.1,
           "c": 1306.69
+        },
+        {
+          "t": "2026-10-23",
+          "o": 1304.15,
+          "h": 1307.92,
+          "l": 1257.62,
+          "c": 1275.6
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.18% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Down 2.55% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "ABBV",
@@ -289485,16 +289891,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 285.19,
-      "day_change_pct": -0.08,
+      "price": 285.78,
+      "day_change_pct": 0.13,
       "52w_high": 291.4,
       "52w_low": 188.25,
-      "52w_range_position_pct": 94.0,
+      "52w_range_position_pct": 94.6,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 219.55
-        },
         {
           "t": "2026-06-17",
           "c": 218.33
@@ -289850,6 +290252,10 @@
         {
           "t": "2026-10-22",
           "c": 285.19
+        },
+        {
+          "t": "2026-10-23",
+          "c": 285.78
         }
       ],
       "ohlc": [
@@ -289897,7 +290303,7 @@
         },
         {
           "t": "2021-12-10",
-          "o": 100.17,
+          "o": 100.16,
           "h": 105.51,
           "l": 99.81,
           "c": 105.05
@@ -290940,8 +291346,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 177.28,
-          "h": 177.96,
+          "o": 180.78,
+          "h": 184.11,
           "l": 176.52,
           "c": 177.18
         },
@@ -294465,10 +294871,17 @@
           "h": 285.76,
           "l": 278.01,
           "c": 285.19
+        },
+        {
+          "t": "2026-10-23",
+          "o": 284.58,
+          "h": 286.77,
+          "l": 282.3,
+          "c": 285.78
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Flat 0.13% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "MRK",
@@ -294476,16 +294889,12 @@
       "category": "health",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 147.24,
-      "day_change_pct": -0.62,
+      "price": 145.18,
+      "day_change_pct": -2.01,
       "52w_high": 156.0,
       "52w_low": 79.67,
-      "52w_range_position_pct": 88.5,
+      "52w_range_position_pct": 85.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 114.49
-        },
         {
           "t": "2026-06-17",
           "c": 114.76
@@ -294841,6 +295250,10 @@
         {
           "t": "2026-10-22",
           "c": 147.24
+        },
+        {
+          "t": "2026-10-23",
+          "c": 145.18
         }
       ],
       "ohlc": [
@@ -295136,7 +295549,7 @@
           "o": 76.93,
           "h": 80.21,
           "l": 76.5,
-          "c": 80.21
+          "c": 80.2
         },
         {
           "t": "2022-08-19",
@@ -295931,8 +296344,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 102.95,
-          "h": 102.97,
+          "o": 102.51,
+          "h": 104.53,
           "l": 101.7,
           "c": 101.83
         },
@@ -296263,7 +296676,7 @@
           "o": 93.57,
           "h": 94.37,
           "l": 93.41,
-          "c": 94.3
+          "c": 94.31
         },
         {
           "t": "2024-12-27",
@@ -299456,10 +299869,17 @@
           "h": 154.02,
           "l": 144.07,
           "c": 147.24
+        },
+        {
+          "t": "2026-10-23",
+          "o": 145.02,
+          "h": 145.44,
+          "l": 143.44,
+          "c": 145.18
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.62% on the session. Trading mid-range (88% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 2.01% on the session. Trading mid-range (86% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "ADM",
@@ -299467,16 +299887,12 @@
       "category": "ag",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 79.84,
-      "day_change_pct": -0.0,
+      "price": 80.06,
+      "day_change_pct": 0.28,
       "52w_high": 88.75,
       "52w_low": 54.0,
-      "52w_range_position_pct": 74.4,
+      "52w_range_position_pct": 75.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 77.53
-        },
         {
           "t": "2026-06-17",
           "c": 76.02
@@ -299832,6 +300248,10 @@
         {
           "t": "2026-10-22",
           "c": 79.84
+        },
+        {
+          "t": "2026-10-23",
+          "c": 80.06
         }
       ],
       "ohlc": [
@@ -300922,8 +301342,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 54.7,
-          "h": 54.79,
+          "o": 53.98,
+          "h": 55.01,
           "l": 52.23,
           "c": 52.69
         },
@@ -304447,10 +304867,17 @@
           "h": 79.92,
           "l": 78.18,
           "c": 79.84
+        },
+        {
+          "t": "2026-10-23",
+          "o": 80.08,
+          "h": 80.76,
+          "l": 79.26,
+          "c": 80.06
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.00% on the session. Trading mid-range (74% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 0.28% on the session. Trading mid-range (75% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "CORN",
@@ -304458,16 +304885,12 @@
       "category": "ag",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 17.78,
-      "day_change_pct": -1.0,
+      "price": 17.66,
+      "day_change_pct": -1.67,
       "52w_high": 20.43,
       "52w_low": 16.37,
-      "52w_range_position_pct": 34.7,
+      "52w_range_position_pct": 31.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 16.93
-        },
         {
           "t": "2026-06-17",
           "c": 17.15
@@ -304823,6 +305246,10 @@
         {
           "t": "2026-10-22",
           "c": 17.78
+        },
+        {
+          "t": "2026-10-23",
+          "c": 17.66
         }
       ],
       "ohlc": [
@@ -305913,9 +306340,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 17.77,
-          "h": 17.77,
-          "l": 17.55,
+          "o": 18.08,
+          "h": 18.09,
+          "l": 17.45,
           "c": 17.58
         },
         {
@@ -309438,10 +309865,17 @@
           "h": 17.96,
           "l": 17.78,
           "c": 17.78
+        },
+        {
+          "t": "2026-10-23",
+          "o": 17.82,
+          "h": 17.82,
+          "l": 17.66,
+          "c": 17.66
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 1.00% on the session. Trading mid-range (35% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 1.67% on the session. Trading mid-range (32% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "WEAT",
@@ -309449,16 +309883,12 @@
       "category": "ag",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 22.84,
-      "day_change_pct": -0.26,
+      "price": 22.8,
+      "day_change_pct": -0.44,
       "52w_high": 28.41,
       "52w_low": 19.78,
-      "52w_range_position_pct": 35.5,
+      "52w_range_position_pct": 35.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 22.75
-        },
         {
           "t": "2026-06-17",
           "c": 23.2
@@ -309814,6 +310244,10 @@
         {
           "t": "2026-10-22",
           "c": 22.84
+        },
+        {
+          "t": "2026-10-23",
+          "c": 22.8
         }
       ],
       "ohlc": [
@@ -310904,8 +311338,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 26.3,
-          "h": 26.3,
+          "o": 26.75,
+          "h": 26.9,
           "l": 25.65,
           "c": 25.7
         },
@@ -314429,10 +314863,17 @@
           "h": 23.08,
           "l": 22.76,
           "c": 22.84
+        },
+        {
+          "t": "2026-10-23",
+          "o": 22.85,
+          "h": 22.94,
+          "l": 22.78,
+          "c": 22.8
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.26% on the session. Trading mid-range (36% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.44% on the session. Trading mid-range (35% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "SOYB",
@@ -314440,16 +314881,12 @@
       "category": "ag",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 26.64,
-      "day_change_pct": 0.15,
+      "price": 26.78,
+      "day_change_pct": 0.29,
       "52w_high": 28.19,
       "52w_low": 21.69,
-      "52w_range_position_pct": 76.2,
+      "52w_range_position_pct": 78.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 24.34
-        },
         {
           "t": "2026-06-17",
           "c": 24.44
@@ -314805,6 +315242,10 @@
         {
           "t": "2026-10-22",
           "c": 26.64
+        },
+        {
+          "t": "2026-10-23",
+          "c": 26.78
         }
       ],
       "ohlc": [
@@ -315895,9 +316336,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 21.58,
-          "h": 21.58,
-          "l": 21.24,
+          "o": 21.94,
+          "h": 22.03,
+          "l": 21.2,
           "c": 21.24
         },
         {
@@ -319420,10 +319861,17 @@
           "h": 26.76,
           "l": 26.59,
           "c": 26.64
+        },
+        {
+          "t": "2026-10-23",
+          "o": 26.7,
+          "h": 26.89,
+          "l": 26.68,
+          "c": 26.78
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.15% on the session. Trading mid-range (76% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 0.29% on the session. Trading mid-range (78% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "GLD",
@@ -319431,16 +319879,12 @@
       "category": "macro",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 369.0,
-      "day_change_pct": 0.07,
+      "price": 366.69,
+      "day_change_pct": -0.56,
       "52w_high": 509.7,
       "52w_low": 360.12,
-      "52w_range_position_pct": 5.9,
+      "52w_range_position_pct": 4.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 397.63
-        },
         {
           "t": "2026-06-17",
           "c": 388.6
@@ -319796,6 +320240,10 @@
         {
           "t": "2026-10-22",
           "c": 369.0
+        },
+        {
+          "t": "2026-10-23",
+          "c": 366.68
         }
       ],
       "ohlc": [
@@ -320886,9 +321334,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 250.0,
+          "o": 245.16,
           "h": 251.37,
-          "l": 249.9,
+          "l": 244.26,
           "c": 251.27
         },
         {
@@ -324411,10 +324859,17 @@
           "h": 373.87,
           "l": 368.35,
           "c": 369.0
+        },
+        {
+          "t": "2026-10-23",
+          "o": 368.95,
+          "h": 369.25,
+          "l": 364.33,
+          "c": 366.68
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.07% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 0.56% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "UUP",
@@ -324422,16 +324877,12 @@
       "category": "macro",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 28.9,
-      "day_change_pct": 0.03,
+      "price": 28.95,
+      "day_change_pct": 0.22,
       "52w_high": 29.25,
       "52w_low": 26.4,
-      "52w_range_position_pct": 87.7,
+      "52w_range_position_pct": 89.6,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 27.93
-        },
         {
           "t": "2026-06-17",
           "c": 28.18
@@ -324787,6 +325238,10 @@
         {
           "t": "2026-10-22",
           "c": 28.9
+        },
+        {
+          "t": "2026-10-23",
+          "c": 28.95
         }
       ],
       "ohlc": [
@@ -325877,9 +326332,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 26.86,
-          "h": 26.88,
-          "l": 26.84,
+          "o": 26.76,
+          "h": 26.93,
+          "l": 26.71,
           "c": 26.86
         },
         {
@@ -329402,10 +329857,17 @@
           "h": 28.97,
           "l": 28.87,
           "c": 28.9
+        },
+        {
+          "t": "2026-10-23",
+          "o": 28.92,
+          "h": 28.97,
+          "l": 28.91,
+          "c": 28.95
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.03% on the session. Trading mid-range (88% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 0.22% on the session. Trading mid-range (90% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "TLT",
@@ -329413,16 +329875,12 @@
       "category": "macro",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 81.74,
-      "day_change_pct": -0.1,
+      "price": 81.35,
+      "day_change_pct": -0.58,
       "52w_high": 88.13,
       "52w_low": 76.43,
-      "52w_range_position_pct": 45.4,
+      "52w_range_position_pct": 42.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 84.86
-        },
         {
           "t": "2026-06-17",
           "c": 85.0
@@ -329778,6 +330236,10 @@
         {
           "t": "2026-10-22",
           "c": 81.74
+        },
+        {
+          "t": "2026-10-23",
+          "c": 81.35
         }
       ],
       "ohlc": [
@@ -330868,9 +331330,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 86.08,
-          "h": 86.29,
-          "l": 85.91,
+          "o": 85.16,
+          "h": 87.52,
+          "l": 85.1,
           "c": 85.92
         },
         {
@@ -331102,7 +331564,7 @@
           "o": 86.37,
           "h": 86.98,
           "l": 86.31,
-          "c": 86.85
+          "c": 86.86
         },
         {
           "t": "2024-12-06",
@@ -333194,7 +333656,7 @@
           "t": "2026-02-18",
           "o": 87.0,
           "h": 87.16,
-          "l": 86.79,
+          "l": 86.78,
           "c": 86.84
         },
         {
@@ -334393,10 +334855,17 @@
           "h": 81.92,
           "l": 80.87,
           "c": 81.74
+        },
+        {
+          "t": "2026-10-23",
+          "o": 81.77,
+          "h": 81.79,
+          "l": 81.27,
+          "c": 81.35
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.10% on the session. Trading mid-range (45% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.58% on the session. Trading mid-range (42% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "SLV",
@@ -334404,16 +334873,12 @@
       "category": "macro",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 49.34,
-      "day_change_pct": 0.12,
+      "price": 48.71,
+      "day_change_pct": -1.16,
       "52w_high": 109.83,
       "52w_low": 41.7,
-      "52w_range_position_pct": 11.2,
+      "52w_range_position_pct": 10.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 63.39
-        },
         {
           "t": "2026-06-17",
           "c": 60.61
@@ -334769,6 +335234,10 @@
         {
           "t": "2026-10-22",
           "c": 49.34
+        },
+        {
+          "t": "2026-10-23",
+          "c": 48.71
         }
       ],
       "ohlc": [
@@ -335859,9 +336328,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 29.47,
+          "o": 28.47,
           "h": 30.72,
-          "l": 29.42,
+          "l": 28.3,
           "c": 30.64
         },
         {
@@ -339384,10 +339853,17 @@
           "h": 50.33,
           "l": 49.2,
           "c": 49.34
+        },
+        {
+          "t": "2026-10-23",
+          "o": 48.6,
+          "h": 48.98,
+          "l": 47.87,
+          "c": 48.71
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.12% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 1.16% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "USO",
@@ -339395,16 +339871,12 @@
       "category": "macro",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 162.51,
-      "day_change_pct": 0.11,
-      "52w_high": 163.77,
+      "price": 169.46,
+      "day_change_pct": 4.39,
+      "52w_high": 169.96,
       "52w_low": 65.99,
-      "52w_range_position_pct": 98.7,
+      "52w_range_position_pct": 99.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 115.47
-        },
         {
           "t": "2026-06-17",
           "c": 114.23
@@ -339760,6 +340232,10 @@
         {
           "t": "2026-10-22",
           "c": 162.51
+        },
+        {
+          "t": "2026-10-23",
+          "c": 169.46
         }
       ],
       "ohlc": [
@@ -340850,8 +341326,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 71.74,
-          "h": 71.92,
+          "o": 76.06,
+          "h": 76.65,
           "l": 70.57,
           "c": 71.38
         },
@@ -344375,10 +344851,17 @@
           "h": 163.77,
           "l": 160.09,
           "c": 162.51
+        },
+        {
+          "t": "2026-10-23",
+          "o": 166.17,
+          "h": 169.96,
+          "l": 166.04,
+          "c": 169.46
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.11% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
+      "addie_commentary": "Up 4.39% on the session. Within 10% of its 52-week high \u2014 momentum favors continuation, but there's little cushion before this stretches into new-high territory. A sentiment shift lands closer to the top of the range than the bottom."
     },
     {
       "symbol": "OKLO",
@@ -344386,16 +344869,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 27.01,
-      "day_change_pct": 0.71,
+      "price": 26.36,
+      "day_change_pct": -1.7,
       "52w_high": 152.06,
-      "52w_low": 26.31,
-      "52w_range_position_pct": 0.6,
+      "52w_low": 26.07,
+      "52w_range_position_pct": 0.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 57.45
-        },
         {
           "t": "2026-06-17",
           "c": 58.82
@@ -344751,6 +345230,10 @@
         {
           "t": "2026-10-22",
           "c": 27.01
+        },
+        {
+          "t": "2026-10-23",
+          "c": 26.36
         }
       ],
       "ohlc": [
@@ -345841,9 +346324,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 15.5,
+          "o": 9.15,
           "h": 20.64,
-          "l": 15.48,
+          "l": 9.01,
           "c": 18.23
         },
         {
@@ -349366,10 +349849,17 @@
           "h": 27.24,
           "l": 26.31,
           "c": 27.01
+        },
+        {
+          "t": "2026-10-23",
+          "o": 26.68,
+          "h": 26.9,
+          "l": 26.07,
+          "c": 26.36
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.71% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 1.70% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "SMR",
@@ -349377,16 +349867,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 5.38,
-      "day_change_pct": 1.51,
+      "price": 5.39,
+      "day_change_pct": 1.6,
       "52w_high": 45.54,
-      "52w_low": 5.23,
-      "52w_range_position_pct": 0.4,
+      "52w_low": 5.2,
+      "52w_range_position_pct": 0.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 9.89
-        },
         {
           "t": "2026-06-17",
           "c": 10.34
@@ -349742,6 +350228,10 @@
         {
           "t": "2026-10-22",
           "c": 5.38
+        },
+        {
+          "t": "2026-10-23",
+          "c": 5.39
         }
       ],
       "ohlc": [
@@ -350706,9 +351196,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 17.88,
+          "o": 13.24,
           "h": 20.35,
-          "l": 17.22,
+          "l": 13.2,
           "c": 18.21
         },
         {
@@ -354231,10 +354721,17 @@
           "h": 5.45,
           "l": 5.23,
           "c": 5.38
+        },
+        {
+          "t": "2026-10-23",
+          "o": 5.29,
+          "h": 5.45,
+          "l": 5.2,
+          "c": 5.39
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 1.51% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Up 1.60% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "NNE",
@@ -354242,16 +354739,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 12.53,
-      "day_change_pct": -0.08,
+      "price": 12.16,
+      "day_change_pct": -2.99,
       "52w_high": 49.5,
-      "52w_low": 12.01,
-      "52w_range_position_pct": 1.4,
+      "52w_low": 11.95,
+      "52w_range_position_pct": 0.6,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 24.01
-        },
         {
           "t": "2026-06-17",
           "c": 25.31
@@ -354607,6 +355100,10 @@
         {
           "t": "2026-10-22",
           "c": 12.53
+        },
+        {
+          "t": "2026-10-23",
+          "c": 12.16
         }
       ],
       "ohlc": [
@@ -354773,9 +355270,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 19.25,
+          "o": 18.45,
           "h": 22.85,
-          "l": 19.16,
+          "l": 15.16,
           "c": 20.38
         },
         {
@@ -358298,10 +358795,17 @@
           "h": 13.01,
           "l": 12.33,
           "c": 12.53
+        },
+        {
+          "t": "2026-10-23",
+          "o": 12.4,
+          "h": 12.45,
+          "l": 11.95,
+          "c": 12.16
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 2.99% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "LEU",
@@ -358309,16 +358813,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 104.15,
-      "day_change_pct": 0.48,
+      "price": 102.39,
+      "day_change_pct": -1.22,
       "52w_high": 402.0,
-      "52w_low": 102.16,
-      "52w_range_position_pct": 0.7,
+      "52w_low": 99.33,
+      "52w_range_position_pct": 1.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 165.47
-        },
         {
           "t": "2026-06-17",
           "c": 170.31
@@ -358674,6 +359174,10 @@
         {
           "t": "2026-10-22",
           "c": 104.15
+        },
+        {
+          "t": "2026-10-23",
+          "c": 102.39
         }
       ],
       "ohlc": [
@@ -359764,9 +360268,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 84.53,
+          "o": 59.63,
           "h": 100.87,
-          "l": 82.35,
+          "l": 56.95,
           "c": 98.59
         },
         {
@@ -363289,10 +363793,17 @@
           "h": 107.24,
           "l": 102.16,
           "c": 104.15
+        },
+        {
+          "t": "2026-10-23",
+          "o": 102.88,
+          "h": 104.45,
+          "l": 99.33,
+          "c": 102.39
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.48% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 1.22% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "LTBR",
@@ -363301,15 +363812,11 @@
       "is_watchlist": false,
       "asset_class": "equity",
       "price": 5.09,
-      "day_change_pct": -0.2,
+      "day_change_pct": -0.1,
       "52w_high": 28.44,
       "52w_low": 4.87,
-      "52w_range_position_pct": 0.9,
+      "52w_range_position_pct": 1.0,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 9.28
-        },
         {
           "t": "2026-06-17",
           "c": 9.29
@@ -363664,6 +364171,10 @@
         },
         {
           "t": "2026-10-22",
+          "c": 5.09
+        },
+        {
+          "t": "2026-10-23",
           "c": 5.09
         }
       ],
@@ -364755,9 +365266,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 4.51,
+          "o": 3.2,
           "h": 7.25,
-          "l": 4.39,
+          "l": 3.2,
           "c": 7.01
         },
         {
@@ -368280,10 +368791,17 @@
           "h": 5.4,
           "l": 5.01,
           "c": 5.09
+        },
+        {
+          "t": "2026-10-23",
+          "o": 5.05,
+          "h": 5.12,
+          "l": 4.95,
+          "c": 5.09
         }
       ],
       "long_history": [],
-      "addie_commentary": "Down 0.20% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Flat 0.10% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "CCJ",
@@ -368291,16 +368809,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 78.93,
-      "day_change_pct": 0.11,
+      "price": 78.58,
+      "day_change_pct": -0.33,
       "52w_high": 135.24,
-      "52w_low": 77.55,
-      "52w_range_position_pct": 2.4,
+      "52w_low": 76.92,
+      "52w_range_position_pct": 2.8,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 107.88
-        },
         {
           "t": "2026-06-17",
           "c": 105.67
@@ -368656,6 +369170,10 @@
         {
           "t": "2026-10-22",
           "c": 78.93
+        },
+        {
+          "t": "2026-10-23",
+          "c": 78.58
         }
       ],
       "ohlc": [
@@ -369746,9 +370264,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 56.73,
+          "o": 51.15,
           "h": 58.42,
-          "l": 55.93,
+          "l": 49.93,
           "c": 57.79
         },
         {
@@ -373271,10 +373789,17 @@
           "h": 80.46,
           "l": 78.26,
           "c": 78.93
+        },
+        {
+          "t": "2026-10-23",
+          "o": 78.43,
+          "h": 79.06,
+          "l": 76.92,
+          "c": 78.58
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.11% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 0.33% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "CEG",
@@ -373282,16 +373807,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 255.21,
-      "day_change_pct": 0.08,
+      "price": 253.51,
+      "day_change_pct": -0.58,
       "52w_high": 403.79,
       "52w_low": 228.28,
-      "52w_range_position_pct": 15.3,
+      "52w_range_position_pct": 14.4,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 267.59
-        },
         {
           "t": "2026-06-17",
           "c": 266.76
@@ -373647,6 +374168,10 @@
         {
           "t": "2026-10-22",
           "c": 255.21
+        },
+        {
+          "t": "2026-10-23",
+          "c": 253.51
         }
       ],
       "ohlc": [
@@ -374072,7 +374597,7 @@
         },
         {
           "t": "2023-03-17",
-          "o": 74.99,
+          "o": 75.0,
           "h": 77.11,
           "l": 74.07,
           "c": 74.84
@@ -374653,9 +375178,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 264.7,
-          "h": 269.44,
-          "l": 261.95,
+          "o": 264.49,
+          "h": 281.72,
+          "l": 259.32,
           "c": 267.05
         },
         {
@@ -378178,10 +378703,17 @@
           "h": 269.02,
           "l": 253.37,
           "c": 255.21
+        },
+        {
+          "t": "2026-10-23",
+          "o": 254.02,
+          "h": 256.79,
+          "l": 247.25,
+          "c": 253.51
         }
       ],
       "long_history": [],
-      "addie_commentary": "Flat 0.08% on the session. Trading mid-range (15% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.58% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "BWXT",
@@ -378189,16 +378721,12 @@
       "category": "nuclear",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 127.3,
-      "day_change_pct": 0.24,
+      "price": 127.22,
+      "day_change_pct": 0.17,
       "52w_high": 241.12,
-      "52w_low": 124.79,
-      "52w_range_position_pct": 2.2,
+      "52w_low": 123.05,
+      "52w_range_position_pct": 3.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 196.62
-        },
         {
           "t": "2026-06-17",
           "c": 202.75
@@ -378554,6 +379082,10 @@
         {
           "t": "2026-10-22",
           "c": 127.3
+        },
+        {
+          "t": "2026-10-23",
+          "c": 127.22
         }
       ],
       "ohlc": [
@@ -379644,9 +380176,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 124.2,
+          "o": 116.44,
           "h": 125.34,
-          "l": 122.78,
+          "l": 115.61,
           "c": 124.46
         },
         {
@@ -383169,10 +383701,17 @@
           "h": 132.99,
           "l": 124.79,
           "c": 127.3
+        },
+        {
+          "t": "2026-10-23",
+          "o": 125.67,
+          "h": 127.78,
+          "l": 123.05,
+          "c": 127.22
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.24% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Up 0.17% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "PWR",
@@ -383180,16 +383719,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 552.44,
-      "day_change_pct": 0.53,
+      "price": 547.07,
+      "day_change_pct": -0.45,
       "52w_high": 788.49,
-      "52w_low": 404.19,
-      "52w_range_position_pct": 38.6,
+      "52w_low": 408.15,
+      "52w_range_position_pct": 36.5,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 719.06
-        },
         {
           "t": "2026-06-17",
           "c": 714.62
@@ -383545,6 +384080,10 @@
         {
           "t": "2026-10-22",
           "c": 552.44
+        },
+        {
+          "t": "2026-10-23",
+          "c": 547.07
         }
       ],
       "ohlc": [
@@ -383917,7 +384456,7 @@
           "o": 133.67,
           "h": 143.55,
           "l": 133.21,
-          "c": 140.44
+          "c": 140.43
         },
         {
           "t": "2022-11-04",
@@ -384635,9 +385174,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 313.48,
-          "h": 314.09,
-          "l": 310.02,
+          "o": 309.82,
+          "h": 315.65,
+          "l": 303.47,
           "c": 313.65
         },
         {
@@ -384944,7 +385483,7 @@
         {
           "t": "2024-12-20",
           "o": 318.95,
-          "h": 330.26,
+          "h": 330.27,
           "l": 318.69,
           "c": 327.76
         },
@@ -385344,7 +385883,7 @@
           "t": "2025-03-18",
           "o": 263.23,
           "h": 266.42,
-          "l": 261.06,
+          "l": 261.07,
           "c": 262.92
         },
         {
@@ -385721,7 +386260,7 @@
         {
           "t": "2025-06-04",
           "o": 357.94,
-          "h": 361.1,
+          "h": 361.09,
           "l": 355.82,
           "c": 358.65
         },
@@ -385993,7 +386532,7 @@
         },
         {
           "t": "2025-07-31",
-          "o": 405.67,
+          "o": 405.68,
           "h": 423.07,
           "l": 398.66,
           "c": 405.71
@@ -387074,7 +387613,7 @@
           "o": 562.18,
           "h": 576.17,
           "l": 559.59,
-          "c": 566.61
+          "c": 566.62
         },
         {
           "t": "2026-03-13",
@@ -387262,7 +387801,7 @@
           "t": "2026-04-21",
           "o": 609.47,
           "h": 611.44,
-          "l": 601.81,
+          "l": 601.8,
           "c": 605.69
         },
         {
@@ -388160,10 +388699,17 @@
           "h": 588.38,
           "l": 543.06,
           "c": 552.44
+        },
+        {
+          "t": "2026-10-23",
+          "o": 543.02,
+          "h": 555.54,
+          "l": 527.07,
+          "c": 547.07
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.53% on the session. Trading mid-range (39% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 0.45% on the session. Trading mid-range (36% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "VIVO",
@@ -388171,16 +388717,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 2.28,
-      "day_change_pct": 0.88,
+      "price": 2.42,
+      "day_change_pct": 7.08,
       "52w_high": 6.86,
       "52w_low": 1.2,
-      "52w_range_position_pct": 19.1,
+      "52w_range_position_pct": 21.6,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 5.73
-        },
         {
           "t": "2026-06-17",
           "c": 5.52
@@ -388536,6 +389078,10 @@
         {
           "t": "2026-10-22",
           "c": 2.28
+        },
+        {
+          "t": "2026-10-23",
+          "c": 2.42
         }
       ],
       "ohlc": [
@@ -389626,9 +390172,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 0.87,
-          "h": 0.91,
-          "l": 0.85,
+          "o": 0.81,
+          "h": 1.06,
+          "l": 0.8,
           "c": 0.9
         },
         {
@@ -393151,10 +393697,17 @@
           "h": 2.32,
           "l": 2.0,
           "c": 2.28
+        },
+        {
+          "t": "2026-10-23",
+          "o": 2.24,
+          "h": 2.43,
+          "l": 2.21,
+          "c": 2.42
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.88% on the session. Trading mid-range (19% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Up 7.08% on the session. Trading mid-range (22% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "BE",
@@ -393162,16 +393715,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 217.77,
-      "day_change_pct": 7.36,
+      "price": 193.49,
+      "day_change_pct": -4.61,
       "52w_high": 351.28,
       "52w_low": 75.7,
-      "52w_range_position_pct": 51.6,
+      "52w_range_position_pct": 42.7,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 280.88
-        },
         {
           "t": "2026-06-17",
           "c": 284.99
@@ -393527,6 +394076,10 @@
         {
           "t": "2026-10-22",
           "c": 217.77
+        },
+        {
+          "t": "2026-10-23",
+          "c": 193.49
         }
       ],
       "ohlc": [
@@ -394617,8 +395170,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 10.26,
-          "h": 10.34,
+          "o": 10.62,
+          "h": 10.76,
           "l": 10.07,
           "c": 10.16
         },
@@ -398142,10 +398695,17 @@
           "h": 229.91,
           "l": 210.74,
           "c": 217.77
+        },
+        {
+          "t": "2026-10-23",
+          "o": 203.01,
+          "h": 205.99,
+          "l": 189.0,
+          "c": 193.49
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 7.36% on the session. Trading mid-range (52% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Down 4.61% on the session. Trading mid-range (43% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "DGXX",
@@ -398153,16 +398713,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 2.31,
-      "day_change_pct": 0.43,
+      "price": 2.24,
+      "day_change_pct": -2.39,
       "52w_high": 9.2,
       "52w_low": 1.86,
-      "52w_range_position_pct": 6.1,
+      "52w_range_position_pct": 5.2,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 6.73
-        },
         {
           "t": "2026-06-17",
           "c": 6.69
@@ -398518,6 +399074,10 @@
         {
           "t": "2026-10-22",
           "c": 2.31
+        },
+        {
+          "t": "2026-10-23",
+          "c": 2.24
         }
       ],
       "ohlc": [
@@ -399608,9 +400168,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 1.23,
+          "o": 1.04,
           "h": 1.31,
-          "l": 1.18,
+          "l": 1.01,
           "c": 1.29
         },
         {
@@ -403133,10 +403693,17 @@
           "h": 2.55,
           "l": 2.26,
           "c": 2.31
+        },
+        {
+          "t": "2026-10-23",
+          "o": 2.28,
+          "h": 2.34,
+          "l": 2.22,
+          "c": 2.24
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.43% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Down 2.39% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "VST",
@@ -403144,16 +403711,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 140.83,
-      "day_change_pct": 0.58,
+      "price": 140.18,
+      "day_change_pct": 0.11,
       "52w_high": 202.48,
       "52w_low": 132.26,
-      "52w_range_position_pct": 12.2,
+      "52w_range_position_pct": 11.3,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 158.13
-        },
         {
           "t": "2026-06-17",
           "c": 158.35
@@ -403509,6 +404072,10 @@
         {
           "t": "2026-10-22",
           "c": 140.83
+        },
+        {
+          "t": "2026-10-23",
+          "c": 140.19
         }
       ],
       "ohlc": [
@@ -404599,8 +405166,8 @@
         },
         {
           "t": "2024-10-18",
-          "o": 125.85,
-          "h": 130.75,
+          "o": 126.31,
+          "h": 137.89,
           "l": 123.94,
           "c": 129.66
         },
@@ -408124,10 +408691,17 @@
           "h": 154.27,
           "l": 139.1,
           "c": 140.83
+        },
+        {
+          "t": "2026-10-23",
+          "o": 139.06,
+          "h": 141.5,
+          "l": 136.18,
+          "c": 140.19
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.58% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
+      "addie_commentary": "Flat 0.11% on the session. Near its 52-week low \u2014 either a genuine deterioration or a contrarian setup; distinguishing the two needs more than price alone (this is a flag for deeper research, not a signal)."
     },
     {
       "symbol": "VRT",
@@ -408135,16 +408709,12 @@
       "category": "power",
       "is_watchlist": false,
       "asset_class": "equity",
-      "price": 195.59,
-      "day_change_pct": 0.46,
+      "price": 194.46,
+      "day_change_pct": -0.12,
       "52w_high": 379.76,
       "52w_low": 147.72,
-      "52w_range_position_pct": 20.6,
+      "52w_range_position_pct": 20.1,
       "history": [
-        {
-          "t": "2026-06-16",
-          "c": 299.53
-        },
         {
           "t": "2026-06-17",
           "c": 317.5
@@ -408500,6 +409070,10 @@
         {
           "t": "2026-10-22",
           "c": 195.59
+        },
+        {
+          "t": "2026-10-23",
+          "c": 194.46
         }
       ],
       "ohlc": [
@@ -409590,9 +410164,9 @@
         },
         {
           "t": "2024-10-18",
-          "o": 113.82,
-          "h": 114.0,
-          "l": 111.85,
+          "o": 112.07,
+          "h": 115.91,
+          "l": 106.03,
           "c": 111.98
         },
         {
@@ -413115,10 +413689,17 @@
           "h": 204.0,
           "l": 193.14,
           "c": 195.59
+        },
+        {
+          "t": "2026-10-23",
+          "o": 191.6,
+          "h": 196.73,
+          "l": 187.25,
+          "c": 194.46
         }
       ],
       "long_history": [],
-      "addie_commentary": "Up 0.46% on the session. Trading mid-range (21% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "addie_commentary": "Flat 0.12% on the session. Trading mid-range (20% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "BTC",
@@ -413126,9 +413707,9 @@
       "category": "crypto",
       "is_watchlist": true,
       "asset_class": "crypto",
-      "price": 81758,
-      "day_change_pct": -0.03,
-      "market_cap_usd": 1643427925194.6934,
+      "price": 81210,
+      "day_change_pct": -0.25,
+      "market_cap_usd": 1632545921843.4072,
       "history": [],
       "ohlc": [
         {
@@ -413779,8 +414360,8 @@
       "long_history": [],
       "52w_high": 116041.0,
       "52w_low": 57779.0,
-      "52w_range_position_pct": 41.2,
-      "addie_commentary": "Flat 0.03% on the session. Trading mid-range (41% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "52w_range_position_pct": 40.2,
+      "addie_commentary": "Down 0.25% on the session. Trading mid-range (40% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
     },
     {
       "symbol": "ETH",
@@ -413788,9 +414369,9 @@
       "category": "crypto",
       "is_watchlist": true,
       "asset_class": "crypto",
-      "price": 2404.29,
-      "day_change_pct": 0.07,
-      "market_cap_usd": 293697381408.63025,
+      "price": 2393.9,
+      "day_change_pct": 0.43,
+      "market_cap_usd": 292424250897.159,
       "history": [],
       "ohlc": [
         {
@@ -414441,8 +415022,50 @@
       "long_history": [],
       "52w_high": 4246.23,
       "52w_low": 1510.78,
-      "52w_range_position_pct": 32.7,
-      "addie_commentary": "Flat 0.07% on the session. Trading mid-range (33% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+      "52w_range_position_pct": 32.3,
+      "addie_commentary": "Up 0.43% on the session. Trading mid-range (32% of the 52-week span) \u2014 no strong momentum or mean-reversion pull either way right now."
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "category": "crypto",
+      "is_watchlist": false,
+      "asset_class": "crypto",
+      "price": 103.56,
+      "day_change_pct": 0.0,
+      "market_cap_usd": 61073462273.71891,
+      "history": [],
+      "ohlc": [],
+      "long_history": [],
+      "addie_commentary": "Flat 0.00% on the session. Crypto's realized volatility runs several multiples of equities \u2014 treat any single day's move (up or down) as noise unless it's part of a multi-day trend."
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "category": "crypto",
+      "is_watchlist": false,
+      "asset_class": "crypto",
+      "price": 1.3,
+      "day_change_pct": -0.41,
+      "market_cap_usd": 82163311500.8849,
+      "history": [],
+      "ohlc": [],
+      "long_history": [],
+      "addie_commentary": "Down 0.41% on the session. Crypto's realized volatility runs several multiples of equities \u2014 treat any single day's move (up or down) as noise unless it's part of a multi-day trend."
+    },
+    {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "category": "crypto",
+      "is_watchlist": false,
+      "asset_class": "crypto",
+      "price": 0.08,
+      "day_change_pct": 0.5,
+      "market_cap_usd": 12366205277.758278,
+      "history": [],
+      "ohlc": [],
+      "long_history": [],
+      "addie_commentary": "Up 0.50% on the session. Crypto's realized volatility runs several multiples of equities \u2014 treat any single day's move (up or down) as noise unless it's part of a multi-day trend."
     }
   ]
 }
